@@ -1,0 +1,80 @@
+{
+  "experiment_name": "LightGBM实验",
+  "feature_columns": [
+    "ret_1d",
+    "mom_3d",
+    "mom_5d",
+    "mom_10d",
+    "mom_20d",
+    "mom_20d_skip1",
+    "volatility_5d",
+    "volatility_20d",
+    "range_1d",
+    "gap_1d",
+    "true_range_1d",
+    "intraday_ret",
+    "close_position",
+    "body_direction",
+    "body_ratio",
+    "upper_shadow",
+    "lower_shadow",
+    "log_amount",
+    "log_volume",
+    "delta_log_amount",
+    "delta_log_volume",
+    "amount_shock_5d",
+    "amount_shock_20d",
+    "limit_up",
+    "limit_down",
+    "missing_price_volume",
+    "history_available_count_20d"
+  ],
+  "data_source": {
+    "train": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\因子数据\\训练集_第一次LST-Transformer因子.parquet",
+    "test": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\因子数据\\测试集_X_第一次LST-Transformer因子.parquet",
+    "missing_value_rule": "保留NaN并使用LightGBM原生缺失值处理"
+  },
+  "sample_rule": {
+    "history_threshold": 16,
+    "train_validation_holdout": "inside_valid_interval and label_valid and history_available_count_20d >= 16",
+    "competition_test": "保留全部记录"
+  },
+  "split_counts": {
+    "train_fit": 4531690,
+    "validation": 1056683,
+    "local_holdout": 1091742
+  },
+  "best_candidate": {
+    "name": "lgb_04",
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "min_data_in_leaf": 100,
+    "feature_fraction": 1.0,
+    "bagging_fraction": 1.0,
+    "lambda_l2": 1.0,
+    "best_iteration": 100,
+    "validation_l2": 0.0005660374314550217,
+    "validation_daily_rank_ic_mean": 0.04869239741627638,
+    "validation_daily_rank_ic_std": 0.0946663716878068,
+    "validation_icir": 0.514357913461133,
+    "validation_ic_positive_ratio": 0.71900826446281,
+    "validation_annual_top_decile_excess": 0.2314427442635094,
+    "validation_mean_turnover": 0.8534582801275139,
+    "validation_official_score": 0.1328722982073092,
+    "seconds": 78.7878100000089
+  },
+  "local_holdout": {
+    "daily_rank_ic_mean": 0.06820252785298943,
+    "daily_rank_ic_std": 0.1525184879999388,
+    "icir": 0.44717547850996786,
+    "ic_positive_ratio": 0.6859504132231405,
+    "annual_top_decile_excess": 0.2898163978050825,
+    "mean_turnover": 0.8285200249234093,
+    "official_score": 0.16566992300569774,
+    "rank_ic_days": 242,
+    "top_decile_days": 242,
+    "turnover_days": 241
+  },
+  "test_rows": 1599600,
+  "seconds": 408.3377770000079
+}

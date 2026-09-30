@@ -1,0 +1,64 @@
+{
+  "all_pass": true,
+  "expected_rows": {
+    "train_fit": 5649750,
+    "validation": 1125300,
+    "local_holdout": 1125300,
+    "competition_test": 1599600
+  },
+  "panel_rows": 9499950,
+  "stock_count": 4650,
+  "sequence_checks": {
+    "train_fit": {
+      "rows": 5649750,
+      "available": 5561400,
+      "finite": 4526439,
+      "inside": 4526439,
+      "eligible": 4514536,
+      "rule_error": 0,
+      "row_id_error": 0,
+      "stock_row_error": 0,
+      "split_error": 0
+    },
+    "validation": {
+      "rows": 1125300,
+      "available": 1125300,
+      "finite": 1059067,
+      "inside": 1059067,
+      "eligible": 1055569,
+      "rule_error": 0,
+      "row_id_error": 0,
+      "stock_row_error": 0,
+      "split_error": 0
+    },
+    "local_holdout": {
+      "rows": 1125300,
+      "available": 1125300,
+      "finite": 1094669,
+      "inside": 1094669,
+      "eligible": 1091450,
+      "rule_error": 0,
+      "row_id_error": 0,
+      "stock_row_error": 0,
+      "split_error": 0
+    },
+    "competition_test": {
+      "rows": 1599600,
+      "available": 1599600,
+      "finite": 1597202,
+      "inside": 1557779,
+      "eligible": 1597202,
+      "rule_error": 0,
+      "row_id_error": 0,
+      "stock_row_error": 0,
+      "split_error": 0
+    }
+  },
+  "panel_errors": {
+    "panel_row_id": 0,
+    "source_row_index": 0,
+    "stock_row_number": 0,
+    "date_order": 0,
+    "source_split": 0
+  }
+}

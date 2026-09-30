@@ -1,0 +1,64 @@
+{
+  "all_pass": true,
+  "parameter_count": 72193,
+  "train_batch_shape": [
+    13,
+    20,
+    27
+  ],
+  "target_shape": [
+    13
+  ],
+  "train_batch_loss": 0.28136271238327026,
+  "splits": {
+    "train_fit": {
+      "reader_length": 4514536,
+      "input_shape": [
+        13,
+        20,
+        27
+      ],
+      "output_shape": [
+        13
+      ],
+      "output_mean": -0.32855650782585144
+    },
+    "validation": {
+      "reader_length": 1055569,
+      "input_shape": [
+        16,
+        20,
+        27
+      ],
+      "output_shape": [
+        16
+      ],
+      "output_mean": -0.30858245491981506
+    },
+    "local_holdout": {
+      "reader_length": 1091450,
+      "input_shape": [
+        16,
+        20,
+        27
+      ],
+      "output_shape": [
+        16
+      ],
+      "output_mean": -0.3055368661880493
+    },
+    "competition_test": {
+      "reader_length": 1597202,
+      "input_shape": [
+        16,
+        20,
+        27
+      ],
+      "output_shape": [
+        16
+      ],
+      "output_mean": -0.2593986690044403
+    }
+  },
+  "future_label_in_test_batch": false
+}

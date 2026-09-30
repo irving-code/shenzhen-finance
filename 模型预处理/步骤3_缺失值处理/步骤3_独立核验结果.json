@@ -1,0 +1,75 @@
+{
+  "expected_rows": {
+    "train_fit": 5649750,
+    "validation": 1125300,
+    "local_holdout": 1125300,
+    "competition_test": 1599600
+  },
+  "checks": {
+    "train_fit": {
+      "rows": 5649750,
+      "expected_rows": 5649750,
+      "remaining_missing_eligible": 0,
+      "training_outside_filled": 0,
+      "invalid_status": 0,
+      "nonfinite_filled_factor": 0,
+      "first_key": [
+        "000001.SZ",
+        20180102
+      ],
+      "last_key": [
+        "605599.SH",
+        20221230
+      ]
+    },
+    "validation": {
+      "rows": 1125300,
+      "expected_rows": 1125300,
+      "remaining_missing_eligible": 0,
+      "training_outside_filled": 0,
+      "invalid_status": 0,
+      "nonfinite_filled_factor": 0,
+      "first_key": [
+        "000001.SZ",
+        20230103
+      ],
+      "last_key": [
+        "605599.SH",
+        20231229
+      ]
+    },
+    "local_holdout": {
+      "rows": 1125300,
+      "expected_rows": 1125300,
+      "remaining_missing_eligible": 0,
+      "training_outside_filled": 0,
+      "invalid_status": 0,
+      "nonfinite_filled_factor": 0,
+      "first_key": [
+        "000001.SZ",
+        20240102
+      ],
+      "last_key": [
+        "605599.SH",
+        20241231
+      ]
+    },
+    "competition_test": {
+      "rows": 1599600,
+      "expected_rows": 1599600,
+      "remaining_missing_eligible": 0,
+      "training_outside_filled": 0,
+      "invalid_status": 0,
+      "nonfinite_filled_factor": 0,
+      "first_key": [
+        "000001.SZ",
+        20250102
+      ],
+      "last_key": [
+        "605599.SH",
+        20260608
+      ]
+    }
+  },
+  "all_pass": true
+}

@@ -1,0 +1,63 @@
+{
+  "summary": [
+    {
+      "split": "competition_test",
+      "dates": 344,
+      "rows": 1599600,
+      "pre_interval": 344,
+      "post_interval": 40903,
+      "inside_valid_interval": 1558353,
+      "label_valid": 0,
+      "history_16_valid": 1551897,
+      "current_market_valid": 1554756,
+      "eligible": 1551799,
+      "eligible_rate": 0.9701169042260566
+    },
+    {
+      "split": "local_holdout",
+      "dates": 242,
+      "rows": 1125300,
+      "pre_interval": 7677,
+      "post_interval": 18259,
+      "inside_valid_interval": 1095976,
+      "label_valid": 1094055,
+      "history_16_valid": 1092940,
+      "current_market_valid": 1094447,
+      "eligible": 1091742,
+      "eligible_rate": 0.970178619034924
+    },
+    {
+      "split": "train_fit",
+      "dates": 1215,
+      "rows": 5649750,
+      "pre_interval": 1023893,
+      "post_interval": 234,
+      "inside_valid_interval": 4608613,
+      "label_valid": 4602065,
+      "history_16_valid": 4535302,
+      "current_market_valid": 4603176,
+      "eligible": 4531690,
+      "eligible_rate": 0.802104517899022
+    },
+    {
+      "split": "validation",
+      "dates": 242,
+      "rows": 1125300,
+      "pre_interval": 50836,
+      "post_interval": 6601,
+      "inside_valid_interval": 1064475,
+      "label_valid": 1062411,
+      "history_16_valid": 1057744,
+      "current_market_valid": 1062747,
+      "eligible": 1056683,
+      "eligible_rate": 0.9390233715453656
+    }
+  ],
+  "history_threshold": 16,
+  "rules": [
+    "inside_valid_interval",
+    "label_valid",
+    "history_available_count_20d >= 16"
+  ],
+  "daily_rows": 2043
+}

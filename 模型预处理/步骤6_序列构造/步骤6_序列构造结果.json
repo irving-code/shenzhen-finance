@@ -1,0 +1,93 @@
+{
+  "window_length": 20,
+  "history_length": 19,
+  "model_feature_count": 27,
+  "model_feature_columns": [
+    "ret_1d",
+    "mom_3d",
+    "mom_5d",
+    "mom_10d",
+    "mom_20d",
+    "mom_20d_skip1",
+    "volatility_5d",
+    "volatility_20d",
+    "range_1d",
+    "gap_1d",
+    "true_range_1d",
+    "intraday_ret",
+    "close_position",
+    "body_ratio",
+    "upper_shadow",
+    "lower_shadow",
+    "log_amount",
+    "log_volume",
+    "delta_log_amount",
+    "delta_log_volume",
+    "amount_shock_5d",
+    "amount_shock_20d",
+    "body_direction",
+    "limit_up",
+    "limit_down",
+    "missing_price_volume",
+    "history_available_ratio_20d"
+  ],
+  "panel_row_count": 9499950,
+  "splits": {
+    "train_fit": {
+      "rows": 5649750,
+      "sample_eligible": 4514536,
+      "sequence_available": 5561400,
+      "sequence_features_finite": 4526439,
+      "sequence_inside_valid": 4526439,
+      "prediction_eligible": 4514536,
+      "first_target_date": 20180102,
+      "last_target_date": 20221230
+    },
+    "validation": {
+      "rows": 1125300,
+      "sample_eligible": 1055598,
+      "sequence_available": 1125300,
+      "sequence_features_finite": 1059067,
+      "sequence_inside_valid": 1059067,
+      "prediction_eligible": 1055569,
+      "first_target_date": 20230103,
+      "last_target_date": 20231229
+    },
+    "local_holdout": {
+      "rows": 1125300,
+      "sample_eligible": 1091470,
+      "sequence_available": 1125300,
+      "sequence_features_finite": 1094669,
+      "sequence_inside_valid": 1094669,
+      "prediction_eligible": 1091450,
+      "first_target_date": 20240102,
+      "last_target_date": 20241231
+    },
+    "competition_test": {
+      "rows": 1599600,
+      "sample_eligible": 1551799,
+      "sequence_available": 1599600,
+      "sequence_features_finite": 1597202,
+      "sequence_inside_valid": 1557779,
+      "prediction_eligible": 1597202,
+      "first_target_date": 20250102,
+      "last_target_date": 20260608
+    }
+  },
+  "outputs": {
+    "panel_index": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤6_序列构造\\面板行索引.parquet",
+    "sequence_indices": {
+      "train_fit": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤6_序列构造\\序列索引_train_fit.parquet",
+      "validation": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤6_序列构造\\序列索引_validation.parquet",
+      "local_holdout": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤6_序列构造\\序列索引_local_holdout.parquet",
+      "competition_test": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤6_序列构造\\序列索引_competition_test.parquet"
+    }
+  },
+  "rules": {
+    "labeled_prediction_eligible": "sample_eligible=1 and sequence_available=1 and sequence_inside_valid=1 and sequence_features_finite=1",
+    "test_prediction_eligible": "sequence_available=1 and sequence_features_finite=1",
+    "cross_stock_window": false,
+    "original_factor_files_modified": false,
+    "step5_standardized_files_modified": false
+  }
+}

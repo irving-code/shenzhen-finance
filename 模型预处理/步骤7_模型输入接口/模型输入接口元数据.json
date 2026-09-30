@@ -1,0 +1,56 @@
+{
+  "window_length": 20,
+  "feature_count": 27,
+  "feature_columns": [
+    "ret_1d",
+    "mom_3d",
+    "mom_5d",
+    "mom_10d",
+    "mom_20d",
+    "mom_20d_skip1",
+    "volatility_5d",
+    "volatility_20d",
+    "range_1d",
+    "gap_1d",
+    "true_range_1d",
+    "intraday_ret",
+    "close_position",
+    "body_ratio",
+    "upper_shadow",
+    "lower_shadow",
+    "log_amount",
+    "log_volume",
+    "delta_log_amount",
+    "delta_log_volume",
+    "amount_shock_5d",
+    "amount_shock_20d",
+    "body_direction",
+    "limit_up",
+    "limit_down",
+    "missing_price_volume",
+    "history_available_ratio_20d"
+  ],
+  "feature_dtype": "float32",
+  "feature_store_file": "特征存储.dat",
+  "feature_store_shape": [
+    9499950,
+    27
+  ],
+  "stock_metadata_file": "股票元数据.parquet",
+  "stock_count": 4650,
+  "total_rows": 9499950,
+  "max_abs_float32_cast_error": 3.4449122132684806e-07,
+  "split_rows": {
+    "train_fit": 5649750,
+    "validation": 1125300,
+    "local_holdout": 1125300,
+    "competition_test": 1599600
+  },
+  "split_prediction_eligible": {
+    "train_fit": 4514536,
+    "validation": 1055569,
+    "local_holdout": 1091450,
+    "competition_test": 1597202
+  },
+  "source_files_modified": false
+}

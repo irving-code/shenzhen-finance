@@ -1,0 +1,187 @@
+{
+  "source": "train_fit sample_eligible rows only",
+  "source_date_start": 20180102,
+  "source_date_end": 20221231,
+  "source_total_rows": 5649750,
+  "source_eligible_rows": 4514536,
+  "source_stock_count": 4291,
+  "history_threshold": 16,
+  "fill_method": "median",
+  "factors": [
+    {
+      "factor": "ret_1d",
+      "train_valid_count": 4513852,
+      "train_missing_count": 684,
+      "train_missing_rate": 0.00015151058713453608,
+      "fill_value": 0.0
+    },
+    {
+      "factor": "mom_3d",
+      "train_valid_count": 4513663,
+      "train_missing_count": 873,
+      "train_missing_rate": 0.00019337535463223685,
+      "fill_value": -0.00077102764043957
+    },
+    {
+      "factor": "mom_5d",
+      "train_valid_count": 4513638,
+      "train_missing_count": 898,
+      "train_missing_rate": 0.00019891302229066288,
+      "fill_value": -0.0011111365165561438
+    },
+    {
+      "factor": "mom_10d",
+      "train_valid_count": 4513661,
+      "train_missing_count": 875,
+      "train_missing_rate": 0.00019381836804491093,
+      "fill_value": -0.002293630503118038
+    },
+    {
+      "factor": "mom_20d",
+      "train_valid_count": 4507423,
+      "train_missing_count": 7113,
+      "train_missing_rate": 0.0015755772021753731,
+      "fill_value": -0.006308118347078562
+    },
+    {
+      "factor": "mom_20d_skip1",
+      "train_valid_count": 4506740,
+      "train_missing_count": 7796,
+      "train_missing_rate": 0.0017268662826035721,
+      "fill_value": -0.005747120827436447
+    },
+    {
+      "factor": "volatility_5d",
+      "train_valid_count": 4511132,
+      "train_missing_count": 3404,
+      "train_missing_rate": 0.0007540088283712878,
+      "fill_value": 0.020904172211885452
+    },
+    {
+      "factor": "volatility_20d",
+      "train_valid_count": 4495019,
+      "train_missing_count": 19517,
+      "train_missing_rate": 0.0043231463875800305,
+      "fill_value": 0.02489129640161991
+    },
+    {
+      "factor": "range_1d",
+      "train_valid_count": 4514536,
+      "train_missing_count": 0,
+      "train_missing_rate": 0.0,
+      "fill_value": 0.032824449241161346
+    },
+    {
+      "factor": "gap_1d",
+      "train_valid_count": 4513852,
+      "train_missing_count": 684,
+      "train_missing_rate": 0.00015151058713453608,
+      "fill_value": 0.0
+    },
+    {
+      "factor": "true_range_1d",
+      "train_valid_count": 4513852,
+      "train_missing_count": 684,
+      "train_missing_rate": 0.00015151058713453608,
+      "fill_value": 0.033816393464803696
+    },
+    {
+      "factor": "intraday_ret",
+      "train_valid_count": 4514536,
+      "train_missing_count": 0,
+      "train_missing_rate": 0.0,
+      "fill_value": -2.707530866175034e-10
+    },
+    {
+      "factor": "close_position",
+      "train_valid_count": 4514536,
+      "train_missing_count": 0,
+      "train_missing_rate": 0.0,
+      "fill_value": 0.4850742816925049
+    },
+    {
+      "factor": "body_direction",
+      "train_valid_count": 4514536,
+      "train_missing_count": 0,
+      "train_missing_rate": 0.0,
+      "fill_value": 0.0
+    },
+    {
+      "factor": "body_ratio",
+      "train_valid_count": 4514536,
+      "train_missing_count": 0,
+      "train_missing_rate": 0.0,
+      "fill_value": 0.013657006435096264
+    },
+    {
+      "factor": "upper_shadow",
+      "train_valid_count": 4514536,
+      "train_missing_count": 0,
+      "train_missing_rate": 0.0,
+      "fill_value": 0.007407341152429581
+    },
+    {
+      "factor": "lower_shadow",
+      "train_valid_count": 4514536,
+      "train_missing_count": 0,
+      "train_missing_rate": 0.0,
+      "fill_value": 0.006825931835919619
+    },
+    {
+      "factor": "log_amount",
+      "train_valid_count": 4514536,
+      "train_missing_count": 0,
+      "train_missing_rate": 0.0,
+      "fill_value": 17.976043701171875
+    },
+    {
+      "factor": "log_volume",
+      "train_valid_count": 4514536,
+      "train_missing_count": 0,
+      "train_missing_rate": 0.0,
+      "fill_value": 15.638526916503906
+    },
+    {
+      "factor": "delta_log_amount",
+      "train_valid_count": 4513852,
+      "train_missing_count": 684,
+      "train_missing_rate": 0.00015151058713453608,
+      "fill_value": -0.04116978123784065
+    },
+    {
+      "factor": "delta_log_volume",
+      "train_valid_count": 4513852,
+      "train_missing_count": 684,
+      "train_missing_rate": 0.00015151058713453608,
+      "fill_value": -0.03886042535305023
+    },
+    {
+      "factor": "amount_shock_5d",
+      "train_valid_count": 4511808,
+      "train_missing_count": 2728,
+      "train_missing_rate": 0.000604270294887448,
+      "fill_value": -0.0506548210978508
+    },
+    {
+      "factor": "amount_shock_20d",
+      "train_valid_count": 4495019,
+      "train_missing_count": 19517,
+      "train_missing_rate": 0.0043231463875800305,
+      "fill_value": -0.0663418173789978
+    },
+    {
+      "factor": "limit_up",
+      "train_valid_count": 4514536,
+      "train_missing_count": 0,
+      "train_missing_rate": 0.0,
+      "fill_value": 0.0
+    },
+    {
+      "factor": "limit_down",
+      "train_valid_count": 4514536,
+      "train_missing_count": 0,
+      "train_missing_rate": 0.0,
+      "fill_value": 0.0
+    }
+  ]
+}

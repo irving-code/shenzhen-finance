@@ -1,0 +1,87 @@
+{
+  "experiment_name": "单日 27 因子 MLP 实验",
+  "feature_columns": [
+    "ret_1d",
+    "mom_3d",
+    "mom_5d",
+    "mom_10d",
+    "mom_20d",
+    "mom_20d_skip1",
+    "volatility_5d",
+    "volatility_20d",
+    "range_1d",
+    "gap_1d",
+    "true_range_1d",
+    "intraday_ret",
+    "close_position",
+    "body_ratio",
+    "upper_shadow",
+    "lower_shadow",
+    "log_amount",
+    "log_volume",
+    "delta_log_amount",
+    "delta_log_volume",
+    "amount_shock_5d",
+    "amount_shock_20d",
+    "body_direction",
+    "limit_up",
+    "limit_down",
+    "missing_price_volume",
+    "history_available_ratio_20d"
+  ],
+  "input_shape": [
+    27
+  ],
+  "data_source": {
+    "train_fit": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤5_标准化处理\\训练集_train_fit_标准化.parquet",
+    "validation": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤5_标准化处理\\验证集_标准化.parquet",
+    "local_holdout": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤5_标准化处理\\本地留出集_标准化.parquet",
+    "competition_test": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤5_标准化处理\\测试集_标准化.parquet"
+  },
+  "sample_rule": "sample_eligible == 1",
+  "model": {
+    "hidden_layers": [
+      128,
+      64
+    ],
+    "activation": "GELU",
+    "dropout": 0.1,
+    "loss": "SmoothL1Loss(beta=0.02)",
+    "optimizer": "AdamW",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "max_epochs": 20,
+    "early_stopping_patience": 4,
+    "seed": 42
+  },
+  "best_epoch": 7,
+  "best_validation": {
+    "daily_rank_ic_mean": 0.09553918706025707,
+    "daily_rank_ic_std": 0.10523624107886635,
+    "icir": 0.9078544243010154,
+    "ic_positive_ratio": 0.8264462809917356,
+    "annual_top_decile_excess": 0.27675187366548926,
+    "mean_turnover": 0.8194865017702222,
+    "official_score": 0.17539528639268295,
+    "rank_ic_days": 242,
+    "top_decile_days": 242,
+    "turnover_days": 241,
+    "loss": 0.009001483854744271,
+    "epoch": 7
+  },
+  "local_holdout": {
+    "daily_rank_ic_mean": 0.08192334752190031,
+    "daily_rank_ic_std": 0.1673615049581582,
+    "icir": 0.48949934778838083,
+    "ic_positive_ratio": 0.7396694214876033,
+    "annual_top_decile_excess": 0.162755761736444,
+    "mean_turnover": 0.8140563881707634,
+    "official_score": 0.13737915107846427,
+    "rank_ic_days": 242,
+    "top_decile_days": 242,
+    "turnover_days": 241
+  },
+  "test_rows": 1551799,
+  "device": "cpu",
+  "seconds": 748.8143470000068
+}

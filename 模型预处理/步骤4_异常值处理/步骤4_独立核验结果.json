@@ -1,0 +1,77 @@
+{
+  "checks": {
+    "train_fit": {
+      "input_rows": 5649750,
+      "output_rows": 5649750,
+      "eligible_nonfinite": 0,
+      "invalid_discrete": 0,
+      "outside_clipped": 0,
+      "clip_count": 833919,
+      "first_key": [
+        "000001.SZ",
+        20180102
+      ],
+      "last_key": [
+        "605599.SH",
+        20221230
+      ],
+      "rows_match": true,
+      "pass": true
+    },
+    "validation": {
+      "input_rows": 1125300,
+      "output_rows": 1125300,
+      "eligible_nonfinite": 0,
+      "invalid_discrete": 0,
+      "outside_clipped": 0,
+      "clip_count": 122596,
+      "first_key": [
+        "000001.SZ",
+        20230103
+      ],
+      "last_key": [
+        "605599.SH",
+        20231229
+      ],
+      "rows_match": true,
+      "pass": true
+    },
+    "local_holdout": {
+      "input_rows": 1125300,
+      "output_rows": 1125300,
+      "eligible_nonfinite": 0,
+      "invalid_discrete": 0,
+      "outside_clipped": 0,
+      "clip_count": 351733,
+      "first_key": [
+        "000001.SZ",
+        20240102
+      ],
+      "last_key": [
+        "605599.SH",
+        20241231
+      ],
+      "rows_match": true,
+      "pass": true
+    },
+    "competition_test": {
+      "input_rows": 1599600,
+      "output_rows": 1599600,
+      "eligible_nonfinite": 0,
+      "invalid_discrete": 0,
+      "outside_clipped": 0,
+      "clip_count": 321337,
+      "first_key": [
+        "000001.SZ",
+        20250102
+      ],
+      "last_key": [
+        "605599.SH",
+        20260608
+      ],
+      "rows_match": true,
+      "pass": true
+    }
+  },
+  "all_pass": true
+}

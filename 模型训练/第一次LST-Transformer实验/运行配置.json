@@ -1,0 +1,86 @@
+{
+  "experiment_name": "第一次LST-Transformer实验",
+  "task": "预测下一交易日收益率 y_ret_1d",
+  "data_interface": "模型预处理/步骤7_模型输入接口/sequence_input_interface.py",
+  "splits": {
+    "train_fit": {
+      "period": "2018-01-02至2022-12-30",
+      "use_for": "参数训练与模型拟合",
+      "prediction_eligible": 4514536
+    },
+    "validation": {
+      "period": "2023-01-03至2023-12-29",
+      "use_for": "早停与超参数选择",
+      "prediction_eligible": 1055569
+    },
+    "local_holdout": {
+      "period": "2024-01-02至2024-12-31",
+      "use_for": "最终模型一次性评估",
+      "prediction_eligible": 1091450
+    },
+    "competition_test": {
+      "period": "2025-01-02至2026-06-08",
+      "use_for": "生成比赛预测",
+      "prediction_eligible": 1597202
+    }
+  },
+  "input": {
+    "sequence_length": 20,
+    "feature_count": 27,
+    "feature_dtype": "float32",
+    "target": "y_ret_1d",
+    "target_transform": "none",
+    "batch_size": 512,
+    "shuffle": false
+  },
+  "model": {
+    "name": "LSTMTransformerRegressor",
+    "input_projection_dim": 64,
+    "lstm_hidden_dim": 64,
+    "lstm_layers": 1,
+    "transformer_layers": 1,
+    "transformer_heads": 4,
+    "transformer_feedforward_dim": 128,
+    "dropout": 0.1,
+    "pooling": "last_timestep",
+    "output_dim": 1
+  },
+  "optimization": {
+    "loss": "SmoothL1Loss_beta_0.02",
+    "optimizer": "AdamW",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "gradient_clip_norm": 1.0,
+    "max_epochs": 30,
+    "early_stopping_patience": 5,
+    "random_seed": 42
+  },
+  "selection": {
+    "primary_validation_metric": "daily_rank_ic_mean",
+    "secondary_validation_metric": "validation_smooth_l1",
+    "local_holdout_usage": "只在确认模型和超参数后评估一次",
+    "competition_test_usage": "只用于最终预测"
+  },
+  "evaluation": {
+    "daily_rank_ic": "按交易日计算Spearman相关系数后取均值",
+    "icir": "日Rank IC均值除以样本标准差",
+    "top_decile_excess": "剔除涨停股后预测前10%组合收益减市场收益",
+    "turnover": "相邻交易日预测前10%股票集合的Jaccard换手率",
+    "official_score": "Rank IC 40% + Top组超额收益 30% + (1-换手率) 30%"
+  },
+  "leakage_controls": [
+    "标准化参数只来自train_fit合格样本",
+    "validation、local_holdout和competition_test不参与参数估计",
+    "训练和验证只读取prediction_eligible=1样本",
+    "local_holdout不参与早停和超参数选择",
+    "competition_test不参与任何训练或选择"
+  ],
+  "runtime": {
+    "batch_size": 512,
+    "epochs": 30,
+    "device": "cuda",
+    "torch_threads": null,
+    "max_train_batches": null,
+    "max_validation_batches": null
+  }
+}

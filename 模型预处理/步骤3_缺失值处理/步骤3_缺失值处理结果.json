@@ -1,0 +1,80 @@
+{
+  "report": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤3_缺失值处理\\步骤3_缺失值处理报告.md",
+  "parameters": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤3_缺失值处理\\参数_train_fit.json",
+  "missing_stats": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤3_缺失值处理\\填充前后缺失率.csv",
+  "summaries": {
+    "train_fit": {
+      "rows": 5649750,
+      "eligible": 4514536,
+      "inside": 4607968,
+      "pre": 604718,
+      "post": 879,
+      "history_16": 4535302,
+      "window_inside": 4526439,
+      "filled_cells": 666008,
+      "outside_filled_cells": 0,
+      "eligible_remaining_missing": 0,
+      "date_min": 20180102,
+      "date_max": 20221230,
+      "stock_count": 4650
+    },
+    "validation": {
+      "rows": 1125300,
+      "eligible": 1055598,
+      "inside": 1064463,
+      "pre": 35832,
+      "post": 6613,
+      "history_16": 1057744,
+      "window_inside": 1059219,
+      "filled_cells": 91097,
+      "outside_filled_cells": 0,
+      "eligible_remaining_missing": 0,
+      "date_min": 20230103,
+      "date_max": 20231229,
+      "stock_count": 4650
+    },
+    "local_holdout": {
+      "rows": 1125300,
+      "eligible": 1091470,
+      "inside": 1095976,
+      "pre": 7677,
+      "post": 18259,
+      "history_16": 1092940,
+      "window_inside": 1094726,
+      "filled_cells": 64610,
+      "outside_filled_cells": 0,
+      "eligible_remaining_missing": 0,
+      "date_min": 20240102,
+      "date_max": 20241231,
+      "stock_count": 4650
+    },
+    "competition_test": {
+      "rows": 1599600,
+      "eligible": 1551799,
+      "inside": 1558353,
+      "pre": 344,
+      "post": 40903,
+      "history_16": 1551897,
+      "window_inside": 1599600,
+      "filled_cells": 1086732,
+      "outside_filled_cells": 948629,
+      "eligible_remaining_missing": 0,
+      "date_min": 20250102,
+      "date_max": 20260608,
+      "stock_count": 4650
+    }
+  },
+  "checks": {
+    "填充参数来源": "仅 train_fit 合格样本",
+    "填充参数来源日期": "20180102 至 20221231",
+    "填充参数来源合格样本数": "4514536",
+    "验证集参数参与估计": "否",
+    "本地留出集参数参与估计": "否",
+    "官方测试集参数参与估计": "否",
+    "股票边界": "按 ts_code 独立计算",
+    "训练区间外填充数量": "0",
+    "统一因子主表": "未修改",
+    "测试集记录": "保留 1,599,600 条",
+    "普通因子合格训练记录空值": "0"
+  }
+}

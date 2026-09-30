@@ -1,0 +1,65 @@
+{
+  "all_pass": true,
+  "results": {
+    "train_fit": {
+      "reader_length": 4514536,
+      "batch_shape": [
+        5,
+        20,
+        27
+      ],
+      "dtype": "float32",
+      "has_label": true,
+      "first_source_row_max_abs_error": 5.6108053758663345e-08
+    },
+    "validation": {
+      "reader_length": 1055569,
+      "batch_shape": [
+        8,
+        20,
+        27
+      ],
+      "dtype": "float32",
+      "has_label": true,
+      "first_source_row_max_abs_error": 4.7853504048234186e-08
+    },
+    "local_holdout": {
+      "reader_length": 1091450,
+      "batch_shape": [
+        8,
+        20,
+        27
+      ],
+      "dtype": "float32",
+      "has_label": true,
+      "first_source_row_max_abs_error": 5.811305170411174e-08
+    },
+    "competition_test": {
+      "reader_length": 1597202,
+      "batch_shape": [
+        8,
+        20,
+        27
+      ],
+      "dtype": "float32",
+      "has_label": false,
+      "first_source_row_max_abs_error": 4.7912893430535064e-08
+    },
+    "torch_adapter": {
+      "x_type": "<class 'torch.Tensor'>",
+      "x_shape": [
+        1,
+        20,
+        27
+      ],
+      "y_shape": [
+        1
+      ]
+    }
+  },
+  "feature_store_shape": [
+    9499950,
+    27
+  ],
+  "feature_store_dtype": "float32"
+}

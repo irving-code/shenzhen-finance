@@ -1,0 +1,61 @@
+{
+  "checks": {
+    "train_fit": {
+      "input_rows": 5649750,
+      "output_rows": 5649750,
+      "eligible_rows": 4514536,
+      "eligible_nonfinite": 0,
+      "outside_standardized_cells": 0,
+      "ratio_invalid": 0,
+      "mean_max_abs": 4.843673205578991e-16,
+      "std_max_abs_error": 2.220446049250313e-16,
+      "label_max_abs_diff": 0.0,
+      "test_has_label": true,
+      "rows_match": true,
+      "pass": true
+    },
+    "validation": {
+      "input_rows": 1125300,
+      "output_rows": 1125300,
+      "eligible_rows": 1055598,
+      "eligible_nonfinite": 0,
+      "outside_standardized_cells": 0,
+      "ratio_invalid": 0,
+      "mean_max_abs": 0.46225642011142626,
+      "std_max_abs_error": 0.4176898512972471,
+      "label_max_abs_diff": 0.0,
+      "test_has_label": true,
+      "rows_match": true,
+      "pass": true
+    },
+    "local_holdout": {
+      "input_rows": 1125300,
+      "output_rows": 1125300,
+      "eligible_rows": 1091470,
+      "eligible_nonfinite": 0,
+      "outside_standardized_cells": 0,
+      "ratio_invalid": 0,
+      "mean_max_abs": 0.3422558105442862,
+      "std_max_abs_error": 0.4091888978722771,
+      "label_max_abs_diff": 0.0,
+      "test_has_label": true,
+      "rows_match": true,
+      "pass": true
+    },
+    "competition_test": {
+      "input_rows": 1599600,
+      "output_rows": 1599600,
+      "eligible_rows": 1551799,
+      "eligible_nonfinite": 0,
+      "outside_standardized_cells": 0,
+      "ratio_invalid": 0,
+      "mean_max_abs": 0.45569084544513283,
+      "std_max_abs_error": 0.4210144304326534,
+      "label_max_abs_diff": 0.0,
+      "test_has_label": false,
+      "rows_match": true,
+      "pass": true
+    }
+  },
+  "all_pass": true
+}

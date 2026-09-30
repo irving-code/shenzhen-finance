@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+
+tmp/
+eda_outputs/
+
+因子数据/
+赛题五/*.zip
+
+模型预处理/**/*.parquet
+模型预处理/**/*.csv
+模型预处理/**/*.dat
+
+模型训练/**/*.pt
+模型训练/**/*.parquet
+模型训练/**/*.csv

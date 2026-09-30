@@ -1,0 +1,99 @@
+{
+  "source_split": "train_fit",
+  "source_date_start": 20180102,
+  "source_date_end": 20221231,
+  "source_eligible_rows": 4514536,
+  "method": "quantile_clip",
+  "lower_quantile": 0.005,
+  "upper_quantile": 0.995,
+  "bounds": {
+    "ret_1d": {
+      "lower": -0.09958984609693289,
+      "upper": 0.1002604141831398
+    },
+    "mom_3d": {
+      "lower": -0.1538461297750473,
+      "upper": 0.21037502251565476
+    },
+    "mom_5d": {
+      "lower": -0.19086941927671433,
+      "upper": 0.2731876082718374
+    },
+    "mom_10d": {
+      "lower": -0.24216563925147055,
+      "upper": 0.3915662467479706
+    },
+    "mom_20d": {
+      "lower": -0.3042581543326378,
+      "upper": 0.5818442076444653
+    },
+    "mom_20d_skip1": {
+      "lower": -0.2989723704755306,
+      "upper": 0.565250471234323
+    },
+    "volatility_5d": {
+      "lower": 0.0,
+      "upper": 0.08633538931608203
+    },
+    "volatility_20d": {
+      "lower": 0.0,
+      "upper": 0.07009238731116063
+    },
+    "range_1d": {
+      "lower": 0.006787269841879606,
+      "upper": 0.13594465367496017
+    },
+    "gap_1d": {
+      "lower": -0.058365714829415084,
+      "upper": 0.06521742027252914
+    },
+    "true_range_1d": {
+      "lower": 0.00815216638147831,
+      "upper": 0.14114850610494628
+    },
+    "intraday_ret": {
+      "lower": -0.08236844837665558,
+      "upper": 0.10237667709589005
+    },
+    "close_position": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "body_ratio": {
+      "lower": 0.0,
+      "upper": 0.10351145584136262
+    },
+    "upper_shadow": {
+      "lower": 0.0,
+      "upper": 0.06288032457232476
+    },
+    "lower_shadow": {
+      "lower": 0.0,
+      "upper": 0.052208820916712285
+    },
+    "log_amount": {
+      "lower": 0.0,
+      "upper": 21.778619623184206
+    },
+    "log_volume": {
+      "lower": 0.0,
+      "upper": 19.137662887573242
+    },
+    "delta_log_amount": {
+      "lower": -0.9752287149429322,
+      "upper": 1.6136242002248777
+    },
+    "delta_log_volume": {
+      "lower": -0.9670817226171493,
+      "upper": 1.5715662956237813
+    },
+    "amount_shock_5d": {
+      "lower": -1.0427798688411714,
+      "upper": 1.8247690856456769
+    },
+    "amount_shock_20d": {
+      "lower": -1.3500864893198012,
+      "upper": 2.8954257965087944
+    }
+  }
+}

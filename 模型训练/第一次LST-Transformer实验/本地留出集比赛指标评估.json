@@ -1,0 +1,50 @@
+{
+  "rows": 1091450,
+  "dates": 242,
+  "model": {
+    "rank_ic": {
+      "mean": 0.08169466855580083,
+      "std": 0.17774012181367457,
+      "icir": 0.4596298670338572,
+      "positive_ratio": 0.7479338842975206,
+      "days": 242
+    },
+    "top_decile": {
+      "annual_excess": 0.20610214931175644,
+      "top1_annual_return": 0.19645436168723898,
+      "days": 242
+    },
+    "turnover": {
+      "mean_turnover": 0.7536409320029761,
+      "one_minus_turnover": 0.2463590679970239,
+      "transition_days": 241
+    },
+    "final_score": 0.16841623261495442
+  },
+  "naive_ret_1d_baseline": {
+    "rank_ic": {
+      "mean": 0.013409700962255251,
+      "std": 0.20442351594626798,
+      "icir": 0.06559764369662806,
+      "positive_ratio": 0.5371900826446281,
+      "days": 242
+    },
+    "top_decile": {
+      "annual_excess": -0.45490051068705245,
+      "top1_annual_return": -0.46454829831156985,
+      "days": 242
+    },
+    "turnover": {
+      "mean_turnover": 0.9201694455965833,
+      "one_minus_turnover": 0.07983055440341669,
+      "transition_days": 241
+    },
+    "final_score": -0.10715710650018861
+  },
+  "model_minus_baseline": {
+    "rank_ic_mean": 0.06828496759354558,
+    "annual_excess": 0.6610026599988089,
+    "one_minus_turnover": 0.1665285135936072,
+    "final_score": 0.27557333911514303
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "source_split": "train_fit",
+  "source_date_start": 20180102,
+  "source_date_end": 20221231,
+  "source_eligible_rows": 4514536,
+  "std_ddof": 0,
+  "continuous_factors": [
+    {
+      "factor": "ret_1d",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.00021156773916466227,
+      "std_ddof0": 0.028950711163451995,
+      "source_min": -0.09958984702825546,
+      "source_max": 0.1002604141831398
+    },
+    {
+      "factor": "mom_3d",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.0007127547890985342,
+      "std_ddof0": 0.05044054747517507,
+      "source_min": -0.1538461297750473,
+      "source_max": 0.21037502586841583
+    },
+    {
+      "factor": "mom_5d",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.0011863844718649423,
+      "std_ddof0": 0.06526158981715659,
+      "source_min": -0.19086942076683044,
+      "source_max": 0.2731876075267792
+    },
+    {
+      "factor": "mom_10d",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.0023193577824391857,
+      "std_ddof0": 0.09121260314574758,
+      "source_min": -0.24216563999652863,
+      "source_max": 0.3915662467479706
+    },
+    {
+      "factor": "mom_20d",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.00506721035711393,
+      "std_ddof0": 0.12921651660866423,
+      "source_min": -0.30425816774368286,
+      "source_max": 0.5818442106246948
+    },
+    {
+      "factor": "mom_20d_skip1",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.004834872707268357,
+      "std_ddof0": 0.1259074955516881,
+      "source_min": -0.29897236824035645,
+      "source_max": 0.5652504563331604
+    },
+    {
+      "factor": "volatility_5d",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.024599611244883798,
+      "std_ddof0": 0.015289736436029171,
+      "source_min": 0.0,
+      "source_max": 0.08633539080619812
+    },
+    {
+      "factor": "volatility_20d",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.026775072793289993,
+      "std_ddof0": 0.011979930837232693,
+      "source_min": 0.0,
+      "source_max": 0.07009238749742508
+    },
+    {
+      "factor": "range_1d",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.03894623469572759,
+      "std_ddof0": 0.023432807978826277,
+      "source_min": 0.006787269841879606,
+      "source_max": 0.1359446495771408
+    },
+    {
+      "factor": "gap_1d",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": -0.0008393874267442823,
+      "std_ddof0": 0.012538942167546602,
+      "source_min": -0.05836571380496025,
+      "source_max": 0.06521742045879364
+    },
+    {
+      "factor": "true_range_1d",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.04061352856518139,
+      "std_ddof0": 0.02488959830438453,
+      "source_min": 0.00815216638147831,
+      "source_max": 0.14114850759506226
+    },
+    {
+      "factor": "intraday_ret",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.0011214445271609558,
+      "std_ddof0": 0.026802957233758133,
+      "source_min": -0.08236844837665558,
+      "source_max": 0.10237667709589005
+    },
+    {
+      "factor": "close_position",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.48566540249417217,
+      "std_ddof0": 0.30268592010155043,
+      "source_min": 0.0,
+      "source_max": 1.0
+    },
+    {
+      "factor": "body_ratio",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.019248484316197245,
+      "std_ddof0": 0.018752930513003408,
+      "source_min": 0.0,
+      "source_max": 0.10351145267486572
+    },
+    {
+      "factor": "upper_shadow",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.010429126996812197,
+      "std_ddof0": 0.01083821531358214,
+      "source_min": 0.0,
+      "source_max": 0.06288032233715057
+    },
+    {
+      "factor": "lower_shadow",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.009128956725631744,
+      "std_ddof0": 0.008848280160886832,
+      "source_min": 0.0,
+      "source_max": 0.05220882222056389
+    },
+    {
+      "factor": "log_amount",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 17.931512045299478,
+      "std_ddof0": 2.064729245919912,
+      "source_min": 0.0,
+      "source_max": 21.77861976623535
+    },
+    {
+      "factor": "log_volume",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 15.560897734355157,
+      "std_ddof0": 1.8955774637235694,
+      "source_min": 0.0,
+      "source_max": 19.137662887573242
+    },
+    {
+      "factor": "delta_log_amount",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": -0.0007070501183111494,
+      "std_ddof0": 0.4241067750934218,
+      "source_min": -0.9752287268638611,
+      "source_max": 1.6136242151260376
+    },
+    {
+      "factor": "delta_log_volume",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": -0.0003933088462840477,
+      "std_ddof0": 0.4155609122913113,
+      "source_min": -0.9670817255973816,
+      "source_max": 1.5715663433074951
+    },
+    {
+      "factor": "amount_shock_5d",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.0008847226689293553,
+      "std_ddof0": 0.45878881205784483,
+      "source_min": -1.0427799224853516,
+      "source_max": 1.824769139289856
+    },
+    {
+      "factor": "amount_shock_20d",
+      "source_valid_count": 4514536,
+      "source_missing_count": 0,
+      "mean": 0.010665720380447333,
+      "std_ddof0": 0.6187256510377039,
+      "source_min": -1.3500864505767822,
+      "source_max": 2.895425796508789
+    }
+  ],
+  "history_available_ratio_formula": "history_available_count_20d / 20"
+}

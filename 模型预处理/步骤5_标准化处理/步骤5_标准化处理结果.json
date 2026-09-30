@@ -1,0 +1,54 @@
+{
+  "report": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤5_标准化处理\\步骤5_标准化处理报告.md",
+  "parameters": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤5_标准化处理\\参数_train_fit.json",
+  "stats": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤5_标准化处理\\标准化统计.csv",
+  "outputs": {
+    "train_fit": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤5_标准化处理\\训练集_train_fit_标准化.parquet",
+    "validation": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤5_标准化处理\\验证集_标准化.parquet",
+    "local_holdout": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤5_标准化处理\\本地留出集_标准化.parquet",
+    "competition_test": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\模型预处理\\步骤5_标准化处理\\测试集_标准化.parquet"
+  },
+  "source_eligible_rows": 4514536,
+  "summaries": {
+    "train_fit": {
+      "rows": 5649750,
+      "eligible_rows": 4514536,
+      "standardized_cells": 101375296,
+      "eligible_nonfinite": 0,
+      "outside_standardized_cells": 0,
+      "date_min": 20180102,
+      "date_max": 20221230,
+      "stock_count": 4650
+    },
+    "validation": {
+      "rows": 1125300,
+      "eligible_rows": 1055598,
+      "standardized_cells": 23418186,
+      "eligible_nonfinite": 0,
+      "outside_standardized_cells": 0,
+      "date_min": 20230103,
+      "date_max": 20231229,
+      "stock_count": 4650
+    },
+    "local_holdout": {
+      "rows": 1125300,
+      "eligible_rows": 1091470,
+      "standardized_cells": 24111472,
+      "eligible_nonfinite": 0,
+      "outside_standardized_cells": 0,
+      "date_min": 20240102,
+      "date_max": 20241231,
+      "stock_count": 4650
+    },
+    "competition_test": {
+      "rows": 1599600,
+      "eligible_rows": 1551799,
+      "standardized_cells": 35191200,
+      "eligible_nonfinite": 0,
+      "outside_standardized_cells": 907434,
+      "date_min": 20250102,
+      "date_max": 20260608,
+      "stock_count": 4650
+    }
+  }
+}
