@@ -1,0 +1,49 @@
+{
+  "group": "single",
+  "rank_weight": 0.3,
+  "seed": 42,
+  "epoch": 6,
+  "elapsed_seconds": 907.0939999999973,
+  "sampling_sha256": "a1dd8b0afe130d2aea52566d3d3e186edfd37e6c4833e15d00da511cc85a778a",
+  "device_memory_peak_bytes": 243578880,
+  "sample_count": 4510263,
+  "batch_count": 9393,
+  "valid_pair_count": 1079936277,
+  "loss_return": 0.013077207404157187,
+  "loss_rank": 0.01379776119312628,
+  "weighted_rank_step_mean": 0.004139361187723852,
+  "loss_total_step_mean": 0.017242433169528875,
+  "grad_norm_step_mean": 0.3307723574556294,
+  "prediction_std_step_mean": 0.002245942694846169,
+  "dependence_ratio_step_mean": 0.1078836193481153,
+  "dependence_penalty_step_mean": 1.916804897961271e-06,
+  "dependence_group_counts": [
+    1342,
+    1342,
+    1342,
+    1342,
+    1342,
+    1342,
+    1341
+  ],
+  "dependence_group_mean_ratios": [
+    0.10187718185600332,
+    0.13311043752554455,
+    0.08962034839920244,
+    0.10560086980772977,
+    0.10379288887435739,
+    0.13416877993550458,
+    0.08699926692786877
+  ],
+  "dependence_group_exceed_fractions": [
+    0.004470938897168405,
+    0.009687034277198211,
+    0.0022354694485842027,
+    0.005216095380029807,
+    0.0029806259314456036,
+    0.00819672131147541,
+    0.01267710663683818
+  ],
+  "parameter_count": 72833,
+  "total_steps": 56358
+}

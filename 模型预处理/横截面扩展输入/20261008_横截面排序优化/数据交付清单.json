@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "data_verified": true,
+  "build_id": "20261008_横截面排序优化",
+  "metadata_sha256": "e1a00c667b9e3d725f30b71a5cc2fa9d15f7e8623887a0ca91b509c64dbf9cb8",
+  "feature_store_sha256": "db1549e46145a9f2d5fc20c7ca599a39fe8e645c10d76fe50a0c9671c0800fd3",
+  "index_sha256": {
+    "train_fit": "db912740ff2f4ff1026da9d6d34d9041be31443dc04ed159021dca83739a1159",
+    "validation": "08a6a67fc63b48d7a29206f594bc04938d12b0930570621a1bff00bf11509e7c",
+    "local_holdout": "153548031ba4d79f691546c935b87fde864521810cb829efe7403ee4b6b42601",
+    "competition_test": "e31a31168d6e73bc355c909f0b58e3c2e8de4ba3f9eca14caaa1da442dee6662"
+  },
+  "verification_sha256": "7de1dc29101a7921cc38e6b92854ab4cac3968c5c2498ec5d966c9bfb93ae8a0",
+  "report_sha256": "c69ccbe4f7965065f6a091b0b61135ba338a5599c08acd29d687df03b4b10edf"
+}

@@ -1,0 +1,19 @@
+{
+  "group": "A",
+  "rank_weight": 0.0,
+  "seed": 44,
+  "epoch": 3,
+  "elapsed_seconds": 2852.625,
+  "sampling_sha256": "30236b0787d7f9630ff0a59dd363562d8998155cf09bf712980377b2bd1dc6af",
+  "sample_count": 4510263,
+  "batch_count": 9393,
+  "valid_pair_count": 0,
+  "loss_return": 0.013125290137985385,
+  "loss_rank": 0.0,
+  "weighted_rank_step_mean": 0.0,
+  "loss_total_step_mean": 0.013150791773287209,
+  "grad_norm_step_mean": 0.32114360306561174,
+  "prediction_std_step_mean": 8.185563068151116e-06,
+  "parameter_count": 72193,
+  "total_steps": 28179
+}

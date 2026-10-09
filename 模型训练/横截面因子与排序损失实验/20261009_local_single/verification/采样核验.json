@@ -1,0 +1,12 @@
+{
+  "seed_42_epoch_1": {
+    "rows": 4510263,
+    "batch_count": 9393,
+    "sampler_sha256": "3cfccee16022f0b9ff3461cb06a353dea71b3964971a981041170ae99ee92c4e"
+  },
+  "seed_42_epoch_2": {
+    "rows": 4510263,
+    "batch_count": 9393,
+    "sampler_sha256": "8b9a278a8982b47dd6c5965ad411a017c43afc13ba20dd49638dcd870a02e21f"
+  }
+}

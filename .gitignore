@@ -1,5 +1,7 @@
 __pycache__/
 *.py[cod]
+.venv/
+.python312/
 
 tmp/
 eda_outputs/

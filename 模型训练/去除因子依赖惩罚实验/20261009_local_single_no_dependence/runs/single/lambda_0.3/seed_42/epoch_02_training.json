@@ -1,0 +1,49 @@
+{
+  "group": "single",
+  "rank_weight": 0.3,
+  "seed": 42,
+  "epoch": 2,
+  "elapsed_seconds": 751.0149999999994,
+  "sampling_sha256": "f68528197bfc6c0c36c682cbecc72d2d447eb6814955d69f47147f2520de736f",
+  "device_memory_peak_bytes": 173478400,
+  "sample_count": 4510263,
+  "batch_count": 9393,
+  "valid_pair_count": 1079939497,
+  "loss_return": 0.013338461128734323,
+  "loss_rank": 0.013882630584671589,
+  "weighted_rank_step_mean": 0.004164788103089836,
+  "loss_total_step_mean": 0.017524887771179797,
+  "grad_norm_step_mean": 0.37042314859920566,
+  "prediction_std_step_mean": 0.001019625953972306,
+  "dependence_ratio_step_mean": null,
+  "dependence_penalty_step_mean": 0.0,
+  "dependence_group_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "dependence_group_mean_ratios": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "dependence_group_exceed_fractions": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "parameter_count": 72833,
+  "total_steps": 18786
+}

@@ -1,0 +1,72 @@
+{
+  "A": {
+    "rows": 512,
+    "shape": [
+      512,
+      20,
+      27
+    ],
+    "loss_total": 0.12568004429340363,
+    "loss_return": 0.12568004429340363,
+    "loss_rank": -0.0,
+    "valid_pair_count": 0,
+    "gradient_norm": 1.2579001188278198
+  },
+  "B": {
+    "rows": 512,
+    "shape": [
+      512,
+      20,
+      37
+    ],
+    "loss_total": 0.14379005134105682,
+    "loss_return": 0.14379005134105682,
+    "loss_rank": 0.0,
+    "valid_pair_count": 0,
+    "gradient_norm": 3.15863299369812
+  },
+  "C": {
+    "rows": 512,
+    "shape": [
+      512,
+      20,
+      27
+    ],
+    "loss_total": 0.14862824976444244,
+    "loss_return": 0.12568004429340363,
+    "loss_rank": 0.07649403065443039,
+    "valid_pair_count": 128468,
+    "gradient_norm": 1.4264415502548218
+  },
+  "rank_direction": {
+    "ts_codes": [
+      "000001.SZ",
+      "000002.SZ"
+    ],
+    "target_date": 20180129,
+    "target_difference": 0.05074816569685936,
+    "gradient_difference": -0.0017152904765680432
+  },
+  "D": {
+    "rows": 512,
+    "shape": [
+      512,
+      20,
+      37
+    ],
+    "loss_total": 0.16090235114097595,
+    "loss_return": 0.14379005134105682,
+    "loss_rank": 0.0570409931242466,
+    "valid_pair_count": 128468,
+    "gradient_norm": 3.178731679916382
+  },
+  "inference": {
+    "rows": 4096,
+    "shape": [
+      4096,
+      20,
+      37
+    ],
+    "device_memory_peak_bytes": 626235392
+  }
+}

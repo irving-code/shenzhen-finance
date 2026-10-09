@@ -1,0 +1,8 @@
+{
+  "first_batch_rows": 471,
+  "next_batch_rows": 471,
+  "first_batch_date": 20220621,
+  "next_batch_date": 20220621,
+  "checkpoint_sha256": "200da6aedb1d1cf36633c2ca097153b82b8d8786d267df09dec82622cbf503ed",
+  "prediction_max_absolute_difference": 0.0
+}

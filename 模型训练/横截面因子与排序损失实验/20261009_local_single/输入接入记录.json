@@ -1,0 +1,44 @@
+{
+  "build_id": "20261008_横截面排序优化",
+  "file_sha256": {
+    "metadata": "e1a00c667b9e3d725f30b71a5cc2fa9d15f7e8623887a0ca91b509c64dbf9cb8",
+    "verification": "7de1dc29101a7921cc38e6b92854ab4cac3968c5c2498ec5d966c9bfb93ae8a0",
+    "report": "c69ccbe4f7965065f6a091b0b61135ba338a5599c08acd29d687df03b4b10edf",
+    "feature_store": "db1549e46145a9f2d5fc20c7ca599a39fe8e645c10d76fe50a0c9671c0800fd3",
+    "parameter": "13d6d3a2aee18b4d5bc47e354fabb50cf3822dc56b045d948d23458c7106d759",
+    "base_store": "8eae6f61b89a8d1662287ca120866d32b35e9bc0421fbb5d548914bffef59abf",
+    "base_metadata": "c7515c55d275034fea2450fdefb5f8c066eb3037ad5a819b2bb36d76a9450842",
+    "stock_metadata": "05658b072ab9f6360749c8f91cf7500847ce3acfa2ad2de2b268812ef55b4e1d",
+    "factor_dates": "209394b8da1322a4623be5bc03bd58edca0effdc272341d340ee29cb66029325"
+  },
+  "indexes": {
+    "train_fit": {
+      "rows": 5649750,
+      "prediction_eligible": 4514536,
+      "training_eligible": 4510263,
+      "selection_eligible": 0,
+      "sha256": "db912740ff2f4ff1026da9d6d34d9041be31443dc04ed159021dca83739a1159"
+    },
+    "validation": {
+      "rows": 1125300,
+      "prediction_eligible": 1055569,
+      "training_eligible": 0,
+      "selection_eligible": 1051065,
+      "sha256": "08a6a67fc63b48d7a29206f594bc04938d12b0930570621a1bff00bf11509e7c"
+    },
+    "local_holdout": {
+      "rows": 1125300,
+      "prediction_eligible": 1091450,
+      "training_eligible": 0,
+      "selection_eligible": 0,
+      "sha256": "153548031ba4d79f691546c935b87fde864521810cb829efe7403ee4b6b42601"
+    },
+    "competition_test": {
+      "rows": 1599600,
+      "prediction_eligible": 1597202,
+      "training_eligible": 0,
+      "selection_eligible": 0,
+      "sha256": "e31a31168d6e73bc355c909f0b58e3c2e8de4ba3f9eca14caaa1da442dee6662"
+    }
+  }
+}

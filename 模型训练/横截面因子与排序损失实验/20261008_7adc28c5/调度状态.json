@@ -1,0 +1,10 @@
+{
+  "candidates": {
+    "A/lambda_0": {
+      "completed_epochs": 3,
+      "best_monitor": 0.29598789546039167,
+      "stale_epochs": 0,
+      "stopped": false
+    }
+  }
+}

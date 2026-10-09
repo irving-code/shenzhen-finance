@@ -1,0 +1,57 @@
+{
+  "project_root": "E:/ChatGPT/ChatGPT_Project/深圳金融比赛赛题五",
+  "batch_size": 200000,
+  "source_files": {
+    "train": "因子数据/训练集_第一次LST-Transformer因子.parquet",
+    "test": "因子数据/测试集_X_第一次LST-Transformer因子.parquet"
+  },
+  "output_root": "模型预处理/横截面扩展输入",
+  "factor_output_root": "因子数据/横截面因子",
+  "temporary_root": "tmp/横截面排序实验",
+  "preprocess_root": "模型预处理",
+  "split_date_ranges": {
+    "train_fit": [20180102, 20221231],
+    "validation": [20230101, 20231231],
+    "local_holdout": [20240101, 20241231],
+    "competition_test": [20250101, 20260608]
+  },
+  "feature_columns": [
+    "csrank_mom_5d",
+    "csrank_mom_20d",
+    "csrank_volatility_5d",
+    "csrank_amount_shock_5d",
+    "csrank_intraday_ret",
+    "excess_ret_1d",
+    "excess_mom_5d",
+    "market_mean_ret_1d",
+    "market_breadth_1d",
+    "market_dispersion_1d"
+  ],
+  "rank_source_columns": [
+    "mom_5d",
+    "mom_20d",
+    "volatility_5d",
+    "amount_shock_5d",
+    "intraday_ret"
+  ],
+  "continuous_columns": [
+    "excess_ret_1d",
+    "excess_mom_5d",
+    "market_mean_ret_1d",
+    "market_dispersion_1d"
+  ],
+  "bounded_columns": [
+    "csrank_mom_5d",
+    "csrank_mom_20d",
+    "csrank_volatility_5d",
+    "csrank_amount_shock_5d",
+    "csrank_intraday_ret",
+    "market_breadth_1d"
+  ],
+  "old_input_root": "模型预处理/步骤7_模型输入接口",
+  "sequence_index_root": "模型预处理/步骤6_序列构造",
+  "standardized_root": "模型预处理/步骤5_标准化处理",
+  "batch_verification_size": 4096,
+  "random_seeds": [42, 43, 44],
+  "max_same_date_batch_size": 512
+}

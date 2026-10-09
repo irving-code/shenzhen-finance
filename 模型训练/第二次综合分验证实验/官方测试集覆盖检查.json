@@ -1,0 +1,10 @@
+{
+  "test_rows": 1599600,
+  "eligible_sequence_rows": 1597202,
+  "prediction_rows": 1597202,
+  "test_duplicate_keys": 0,
+  "prediction_duplicate_keys": 0,
+  "missing_test_keys": 2398,
+  "extra_prediction_keys": 0,
+  "submission_created": false
+}

@@ -1,0 +1,43 @@
+{
+  "dependence": {
+    "source_group_index": 1,
+    "source_features": [
+      2,
+      27,
+      33
+    ],
+    "ratio": 0.30563315749168396,
+    "penalty": 0.00030950483051128685
+  },
+  "single": {
+    "rows": 512,
+    "shape": [
+      512,
+      20,
+      37
+    ],
+    "loss_total": 0.16121186316013336,
+    "loss_return": 0.14379005134105682,
+    "loss_rank": 0.0570409931242466,
+    "valid_pair_count": 128468,
+    "gradient_norm": 3.1742539405822754
+  },
+  "rank_direction": {
+    "ts_codes": [
+      "000001.SZ",
+      "000002.SZ"
+    ],
+    "target_date": 20180129,
+    "target_difference": 0.05074816569685936,
+    "gradient_difference": -0.6321049928665161
+  },
+  "inference": {
+    "rows": 4096,
+    "shape": [
+      4096,
+      20,
+      37
+    ],
+    "device_memory_peak_bytes": 627495424
+  }
+}

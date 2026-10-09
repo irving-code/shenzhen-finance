@@ -1,0 +1,39 @@
+{
+  "dates": [
+    20230103,
+    20230104,
+    20230105
+  ],
+  "rows": 12821,
+  "official": {
+    "ic_mean": 0.09048573928031718,
+    "ic_std": 0.10474891059475132,
+    "icir": 0.8638346572441697,
+    "ic_positive_ratio": 0.6666666666666666,
+    "annual_excess": 0.2131189888257037,
+    "top1_annual_ret": 0.8674614304871394,
+    "mean_turnover": 0.5229613833387419,
+    "final_score": 0.2432415773582154
+  },
+  "local": {
+    "ic_mean": 0.09048573928031718,
+    "ic_std": 0.10474891059475132,
+    "icir": 0.8638346572441697,
+    "ic_positive_ratio": 0.6666666666666666,
+    "annual_excess": 0.21311898882570482,
+    "top1_annual_ret": 0.8674614304871412,
+    "mean_turnover": 0.5229613833387419,
+    "final_score": 0.24324157735821572
+  },
+  "absolute_difference": {
+    "ic_mean": 0.0,
+    "ic_std": 0.0,
+    "icir": 0.0,
+    "ic_positive_ratio": 0.0,
+    "annual_excess": 1.1102230246251565e-15,
+    "top1_annual_ret": 1.7763568394002505e-15,
+    "mean_turnover": 0.0,
+    "final_score": 3.3306690738754696e-16
+  },
+  "daily_metric_rows": 3
+}

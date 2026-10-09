@@ -1,0 +1,14 @@
+{
+  "train_fit": {
+    "eligible_rows": 4510263,
+    "excluded_rows": 4273,
+    "excluded_target_date": 20221230,
+    "excluded_realization_date": 20230103
+  },
+  "validation": {
+    "eligible_rows": 1051065,
+    "excluded_rows": 4504,
+    "excluded_target_date": 20231229,
+    "excluded_realization_date": 20240102
+  }
+}

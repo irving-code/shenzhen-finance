@@ -1,0 +1,252 @@
+{
+  "status": "passed",
+  "build_id": "20261008_横截面排序优化",
+  "verified_at_utc": "2026-10-08T03:26:33.336701+00:00",
+  "python": "3.13.9",
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "pyarrow": "21.0.0",
+  "source_sha256": {
+    "train_factors": "fb8eee05d159834d0bc203bdc918c02d0694c3801fde4045168be181aefafd68",
+    "test_factors": "09e9051628678ff7bff80c85e26b2303a7a7fa7dc6d9a8c79774f7afd79a83b8",
+    "base_store": "8eae6f61b89a8d1662287ca120866d32b35e9bc0421fbb5d548914bffef59abf"
+  },
+  "identity": {
+    "train_fit": {
+      "rows": 5649750,
+      "key_sha256": "6c3c19af5b60b4a60d56d96a7689a86973d619e39075775e358329acf161eeb2"
+    },
+    "validation": {
+      "rows": 1125300,
+      "key_sha256": "5f3d92211b75402a215333e5e6416262192a32b6b6925484e9c33ec29ae69422"
+    },
+    "local_holdout": {
+      "rows": 1125300,
+      "key_sha256": "fb3e82ade37e98bcae0f93ad6e5382a7002773a47ee6544ba10447fe2f8f4717"
+    },
+    "competition_test": {
+      "rows": 1599600,
+      "key_sha256": "1d06badfd0572ca61b407b3dd91be90f49dcad0f7639205c99aefd3a8d565889"
+    }
+  },
+  "checks": {
+    "P01_identity": "passed",
+    "P02_label_dates": "passed",
+    "P02_label_prices": {
+      "checked_rows": 32,
+      "max_absolute_difference": 1.3710947932565887e-09
+    },
+    "P03_P04_cross_section_formula": [
+      {
+        "source": "train",
+        "trade_date": 20180102,
+        "rows": 4650
+      },
+      {
+        "source": "train",
+        "trade_date": 20200706,
+        "rows": 4650
+      },
+      {
+        "source": "train",
+        "trade_date": 20221230,
+        "rows": 4650
+      },
+      {
+        "source": "train",
+        "trade_date": 20230103,
+        "rows": 4650
+      },
+      {
+        "source": "train",
+        "trade_date": 20230706,
+        "rows": 4650
+      },
+      {
+        "source": "train",
+        "trade_date": 20231229,
+        "rows": 4650
+      },
+      {
+        "source": "train",
+        "trade_date": 20240102,
+        "rows": 4650
+      },
+      {
+        "source": "train",
+        "trade_date": 20240705,
+        "rows": 4650
+      },
+      {
+        "source": "train",
+        "trade_date": 20241231,
+        "rows": 4650
+      },
+      {
+        "source": "test",
+        "trade_date": 20250102,
+        "rows": 4650
+      },
+      {
+        "source": "test",
+        "trade_date": 20250916,
+        "rows": 4650
+      },
+      {
+        "source": "test",
+        "trade_date": 20260608,
+        "rows": 4650
+      }
+    ],
+    "P06_time_availability": "passed; 每个目标日期只使用该日完整横截面",
+    "P07_parameters": {
+      "csrank_mom_5d": {
+        "median": 0.5
+      },
+      "csrank_mom_20d": {
+        "median": 0.49976634979248047
+      },
+      "csrank_volatility_5d": {
+        "median": 0.49897509813308716
+      },
+      "csrank_amount_shock_5d": {
+        "median": 0.5
+      },
+      "csrank_intraday_ret": {
+        "median": 0.4998743534088135
+      },
+      "excess_ret_1d": {
+        "median": 0.0,
+        "lower_quantile": -0.07809467073529959,
+        "upper_quantile": 0.10490235369652512,
+        "mean": 0.002241827761014144,
+        "std_ddof0": 0.024821512800731582
+      },
+      "excess_mom_5d": {
+        "median": 0.0,
+        "lower_quantile": -0.15543624497950076,
+        "upper_quantile": 0.26677198782563216,
+        "mean": 0.005724608049455995,
+        "std_ddof0": 0.05594604051136674
+      },
+      "market_mean_ret_1d": {
+        "median": 0.0014412431046366692,
+        "lower_quantile": -0.05351969227194786,
+        "upper_quantile": 0.03609719127416611,
+        "mean": 0.0003760655852242647,
+        "std_ddof0": 0.013900569710244148
+      },
+      "market_breadth_1d": {
+        "median": 0.45588234066963196
+      },
+      "market_dispersion_1d": {
+        "median": 0.025509627535939217,
+        "lower_quantile": 0.017221707850694656,
+        "upper_quantile": 0.03970121592283249,
+        "mean": 0.02560797779312562,
+        "std_ddof0": 0.004139680826586952
+      }
+    },
+    "P08_P11_full_store_values": {
+      "train_fit": 5649750,
+      "validation": 1125300,
+      "local_holdout": 1125300,
+      "competition_test": 1599600
+    },
+    "P10_P12_store_and_windows": {
+      "train_fit": {
+        "rows": 5649750,
+        "prediction_eligible": 4514536,
+        "compared_windows": 4514536
+      },
+      "validation": {
+        "rows": 1125300,
+        "prediction_eligible": 1055569,
+        "compared_windows": 1055569
+      },
+      "local_holdout": {
+        "rows": 1125300,
+        "prediction_eligible": 1091450,
+        "compared_windows": 1091450
+      },
+      "competition_test": {
+        "rows": 1599600,
+        "prediction_eligible": 1597202,
+        "compared_windows": 1597202
+      }
+    },
+    "P13_P14_sampler": {
+      "42": {
+        "rows": 4510263,
+        "batch_sha256": "6a404d8c051ff0ab613c0c17fd9e6449ebd97ca30446a67e45c56dcd96143ebd"
+      },
+      "43": {
+        "rows": 4510263,
+        "batch_sha256": "ee01e9192e710137d8587cc7190749f022d83ae17142d42154b1944c45967afc"
+      },
+      "44": {
+        "rows": 4510263,
+        "batch_sha256": "8208193b730adf87e38048223367b9b0ea0283d7e018f28b602900337f1bb7a8"
+      }
+    },
+    "P15_reopen": "passed",
+    "P16_test_coverage": {
+      "total_rows": 1599600,
+      "eligible_rows": 1597202,
+      "missing_rows": 2398,
+      "missing_keys_file": "官方测试覆盖缺失键.parquet"
+    }
+  },
+  "formula_tolerances": {
+    "rtol": 1e-10,
+    "atol": 1e-12
+  },
+  "parameters": {
+    "csrank_mom_5d": {
+      "median": 0.5
+    },
+    "csrank_mom_20d": {
+      "median": 0.49976634979248047
+    },
+    "csrank_volatility_5d": {
+      "median": 0.49897509813308716
+    },
+    "csrank_amount_shock_5d": {
+      "median": 0.5
+    },
+    "csrank_intraday_ret": {
+      "median": 0.4998743534088135
+    },
+    "excess_ret_1d": {
+      "median": 0.0,
+      "lower_quantile": -0.07809467073529959,
+      "upper_quantile": 0.10490235369652512,
+      "mean": 0.002241827761014144,
+      "std_ddof0": 0.024821512800731582
+    },
+    "excess_mom_5d": {
+      "median": 0.0,
+      "lower_quantile": -0.15543624497950076,
+      "upper_quantile": 0.26677198782563216,
+      "mean": 0.005724608049455995,
+      "std_ddof0": 0.05594604051136674
+    },
+    "market_mean_ret_1d": {
+      "median": 0.0014412431046366692,
+      "lower_quantile": -0.05351969227194786,
+      "upper_quantile": 0.03609719127416611,
+      "mean": 0.0003760655852242647,
+      "std_ddof0": 0.013900569710244148
+    },
+    "market_breadth_1d": {
+      "median": 0.45588234066963196
+    },
+    "market_dispersion_1d": {
+      "median": 0.025509627535939217,
+      "lower_quantile": 0.017221707850694656,
+      "upper_quantile": 0.03970121592283249,
+      "mean": 0.02560797779312562,
+      "std_ddof0": 0.004139680826586952
+    }
+  }
+}

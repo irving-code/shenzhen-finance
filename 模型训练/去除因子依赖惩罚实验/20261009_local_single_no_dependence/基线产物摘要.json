@@ -1,0 +1,74 @@
+{
+  "baseline_run_dir": "模型训练/横截面因子与排序损失实验/20261009_local_single",
+  "selected_candidate": {
+    "group": "single",
+    "rank_weight": 0.3,
+    "seed": 42,
+    "epoch": 3,
+    "alpha": 0.3,
+    "final_score": 0.336932252318493,
+    "rank_ic": 0.08822769805775313,
+    "annual_excess": 0.21988145705218512
+  },
+  "files": [
+    {
+      "path": "模型训练/横截面因子与排序损失实验/20261009_local_single/配置快照.json",
+      "sha256": "321ef8cef151745015d19a7c6de4c930bf3862fe9b3b07c5b0bd28879167ab46",
+      "bytes": 8630
+    },
+    {
+      "path": "模型训练/横截面因子与排序损失实验/20261009_local_single/选定配置.json",
+      "sha256": "c26c1a922062b850b0153c5dca32b6377717f2e7540091d27558e5168581308c",
+      "bytes": 280
+    },
+    {
+      "path": "模型训练/横截面因子与排序损失实验/20261009_local_single/模型结果评估报告.md",
+      "sha256": "58f66cee26d5f0d6027715ca472a2cbbf138eec4572e4691f40ce68878b6b0c4",
+      "bytes": 7383
+    },
+    {
+      "path": "模型训练/横截面因子与排序损失实验/20261009_local_single/evaluation/周期指标.csv",
+      "sha256": "f0d6dc703451568e3f41abbbd8261dfe3665e7f1f048a61c5808186eb4279c69",
+      "bytes": 6035
+    },
+    {
+      "path": "模型训练/横截面因子与排序损失实验/20261009_local_single/evaluation/本地留出集指标.json",
+      "sha256": "8b57607df25ceb54c6c9727519e57d107d9a62a52afe14e6cfb5aa4bf7a0ec26",
+      "bytes": 286479
+    },
+    {
+      "path": "模型训练/横截面因子与排序损失实验/20261009_local_single/evaluation/local_holdout/local_holdout_raw_predictions.parquet",
+      "sha256": "bcbcbd0daaf2c3c5cace4204d875190686cc5af343e7932dab0e9f750e0a41c7",
+      "bytes": 4266737
+    },
+    {
+      "path": "模型训练/横截面因子与排序损失实验/20261009_local_single/evaluation/local_holdout/local_holdout_alpha_1_daily.parquet",
+      "sha256": "f43374d842d8dd7c99807248d94c3808fcedca37b43eb4c34aad7c090244c941",
+      "bytes": 19901
+    },
+    {
+      "path": "模型训练/横截面因子与排序损失实验/20261009_local_single/evaluation/local_holdout/local_holdout_alpha_0.3_daily.parquet",
+      "sha256": "56cad9a990f4fd03a0c236d9c14f7d976ae703cc36c61e636de03cf1ddec171d",
+      "bytes": 19832
+    },
+    {
+      "path": "模型训练/横截面因子与排序损失实验/20261009_local_single/runs/single/lambda_0.3/seed_42/checkpoint_epoch_03.pt",
+      "sha256": "678713ae5ae2a28f5193cbd2c54fa7e2f76d3b9dd72ccba3165f00cff18bbb2d",
+      "bytes": 920873
+    }
+  ],
+  "archived_source_sha256": {
+    "cross_section_experiment.py": "2f9424dcbdd0a47671579f6f9716916817ae09fa0964050aee783e1e0add8a07",
+    "cross_section_input.py": "0c33495a442a9a22c1e2526e92ac53c3939af0e20a606ec6ac55aae512767d99",
+    "dependence_constraint.py": "4112797f81d0bac79c7217b5edda58d96f2afb4de6fcaab2532ae8f353b5960d",
+    "ranking_loss.py": "2b64dd56a205fe8654e13654509cce9010c2856c545f57f673ca6da1185d9953",
+    "lstm_transformer_small.py": "3d7f9f4e1a753dd26c5d56dbec34ca689c2efd9d01369cafaa9f3f5c5aba8013",
+    "train_cross_section_rank.py": "34b7bebe3d9e8048d5b0ad6cb6641f430f51fec7af19a051ae63da11c53b84cc",
+    "evaluate_cross_section_rank.py": "b395f5226771f6f637441021596898c1b470e947c83f2991a9f61e40390dde10",
+    "verify_cross_section_rank.py": "c77daed2b8adad002c62555bc8c0d65819e12afcbebc9991041a4b88c454b33b",
+    "finalize_cross_section_rank.py": "784fc671df6c057cd8cf3839102777ab5d78a5442035d69ce2e2312c81205978",
+    "coordinate_cross_section_rank.py": "3750e66281f3986ed2478314a975a20b59419810ccfb742dee2312807a1fb246",
+    "evaluate_first_lstm_result.py": "f65a5deb86af3a89331e344dd1f84a34141b6f42d7467f4ec032e5896bb5fad6",
+    "run_second_score_experiment.py": "483a6c7a0ceaab748cbc6430dda1995eae55d6675867f133e8f4346f4e2a14ab"
+  }
+}

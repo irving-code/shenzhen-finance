@@ -1,0 +1,15 @@
+{
+  "all_rows": 1599600,
+  "eligible_predictions": 1597202,
+  "uncovered_rows": 2398,
+  "complete_submission": false,
+  "uncovered_reason_counts": {
+    "sequence_available": 0,
+    "sequence_features_finite": 2398,
+    "sequence_inside_valid": 2398,
+    "sample_eligible": 2358,
+    "target_inside_valid_interval": 2027,
+    "target_current_market_valid": 2111
+  },
+  "uncovered_reason_counts_overlap": true
+}

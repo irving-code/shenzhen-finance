@@ -1,0 +1,22 @@
+{
+  "train_fit": {
+    "windows": 4514536,
+    "base_channels": 27,
+    "extended_channels": 37
+  },
+  "validation": {
+    "windows": 1055569,
+    "base_channels": 27,
+    "extended_channels": 37
+  },
+  "local_holdout": {
+    "windows": 1091450,
+    "base_channels": 27,
+    "extended_channels": 37
+  },
+  "competition_test": {
+    "windows": 1597202,
+    "base_channels": 27,
+    "extended_channels": 37
+  }
+}

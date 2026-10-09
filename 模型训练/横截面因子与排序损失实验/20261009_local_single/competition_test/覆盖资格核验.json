@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "config_sha256": "3f67e016bbd3b28e22cc8681305a3075c57129f062648a9199dfdc1f68ecdab7",
+  "source_index_sha256": "e31a31168d6e73bc355c909f0b58e3c2e8de4ba3f9eca14caaa1da442dee6662",
+  "audit_program_sha256": "760bda5bbbfe83a5cb2a330af89c06ca31f3e3ea298ec09b55e3bc269a442d7e",
+  "annotated_missing_sha256": "5b936a6519d8c21996c5f84c8e49a781dc861610fa1683fa8179329f9c7a79ee",
+  "all_test_keys": 1599600,
+  "predicted_keys": 1597202,
+  "missing_keys": 2398,
+  "uncovered_reason_counts": {
+    "sequence_available": 0,
+    "sequence_features_finite": 2398,
+    "sequence_inside_valid": 2398,
+    "sample_eligible": 2358,
+    "target_inside_valid_interval": 2027,
+    "target_current_market_valid": 2111
+  },
+  "uncovered_reason_counts_overlap": true
+}

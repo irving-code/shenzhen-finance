@@ -1,0 +1,142 @@
+{
+  "status": "complete",
+  "build_id": "20261008_横截面排序优化",
+  "window_length": 20,
+  "base_feature_count": 27,
+  "extra_feature_count": 10,
+  "feature_columns": [
+    "csrank_mom_5d",
+    "csrank_mom_20d",
+    "csrank_volatility_5d",
+    "csrank_amount_shock_5d",
+    "csrank_intraday_ret",
+    "excess_ret_1d",
+    "excess_mom_5d",
+    "market_mean_ret_1d",
+    "market_breadth_1d",
+    "market_dispersion_1d"
+  ],
+  "feature_dtype": "float32",
+  "feature_store_shape": [
+    9499950,
+    10
+  ],
+  "split_key_summaries": {
+    "train_fit": {
+      "rows": 5649750,
+      "key_sha256": "6c3c19af5b60b4a60d56d96a7689a86973d619e39075775e358329acf161eeb2"
+    },
+    "validation": {
+      "rows": 1125300,
+      "key_sha256": "5f3d92211b75402a215333e5e6416262192a32b6b6925484e9c33ec29ae69422"
+    },
+    "local_holdout": {
+      "rows": 1125300,
+      "key_sha256": "fb3e82ade37e98bcae0f93ad6e5382a7002773a47ee6544ba10447fe2f8f4717"
+    },
+    "competition_test": {
+      "rows": 1599600,
+      "key_sha256": "1d06badfd0572ca61b407b3dd91be90f49dcad0f7639205c99aefd3a8d565889"
+    }
+  },
+  "source_factor_audit": {
+    "status": "complete",
+    "feature_columns": [
+      "csrank_mom_5d",
+      "csrank_mom_20d",
+      "csrank_volatility_5d",
+      "csrank_amount_shock_5d",
+      "csrank_intraday_ret",
+      "excess_ret_1d",
+      "excess_mom_5d",
+      "market_mean_ret_1d",
+      "market_breadth_1d",
+      "market_dispersion_1d"
+    ],
+    "rank_source_columns": [
+      "mom_5d",
+      "mom_20d",
+      "volatility_5d",
+      "amount_shock_5d",
+      "intraday_ret"
+    ],
+    "source_files": {
+      "train": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\因子数据\\横截面因子\\20261008_横截面排序优化\\train_横截面因子.parquet",
+      "test": "E:\\ChatGPT\\ChatGPT_Project\\深圳金融比赛赛题五\\因子数据\\横截面因子\\20261008_横截面排序优化\\test_横截面因子.parquet"
+    },
+    "date_count": 2043,
+    "date_start": 20180102,
+    "date_end": 20260608,
+    "statistics_rows": 10215,
+    "calculation_dtype": "float64",
+    "output_dtype": "float32"
+  },
+  "split_counts": {
+    "train_fit": {
+      "rows": 5649750,
+      "processed_rows": 4607968,
+      "retained_rows": 1041782,
+      "eligible_rows": 4514536,
+      "training_rows": 4510263,
+      "selection_rows": 0
+    },
+    "validation": {
+      "rows": 1125300,
+      "processed_rows": 1064463,
+      "retained_rows": 60837,
+      "eligible_rows": 1055569,
+      "training_rows": 0,
+      "selection_rows": 1051065
+    },
+    "local_holdout": {
+      "rows": 1125300,
+      "processed_rows": 1095976,
+      "retained_rows": 29324,
+      "eligible_rows": 1091450,
+      "training_rows": 0,
+      "selection_rows": 0
+    },
+    "competition_test": {
+      "rows": 1599600,
+      "processed_rows": 1599600,
+      "retained_rows": 0,
+      "eligible_rows": 1597202,
+      "training_rows": 0,
+      "selection_rows": 0
+    }
+  },
+  "sample_counts": {
+    "train_fit": {
+      "rows": 5649750,
+      "prediction_eligible": 4514536,
+      "training_eligible": 4510263,
+      "selection_eligible": 0
+    },
+    "validation": {
+      "rows": 1125300,
+      "prediction_eligible": 1055569,
+      "training_eligible": 0,
+      "selection_eligible": 1051065
+    },
+    "local_holdout": {
+      "rows": 1125300,
+      "prediction_eligible": 1091450,
+      "training_eligible": 0,
+      "selection_eligible": 0
+    },
+    "competition_test": {
+      "rows": 1599600,
+      "prediction_eligible": 1597202,
+      "training_eligible": 0,
+      "selection_eligible": 0
+    }
+  },
+  "parameter_sha256": "13d6d3a2aee18b4d5bc47e354fabb50cf3822dc56b045d948d23458c7106d759",
+  "data_verified": true,
+  "source_sha256": {
+    "train_factors": "fb8eee05d159834d0bc203bdc918c02d0694c3801fde4045168be181aefafd68",
+    "test_factors": "09e9051628678ff7bff80c85e26b2303a7a7fa7dc6d9a8c79774f7afd79a83b8",
+    "base_store": "8eae6f61b89a8d1662287ca120866d32b35e9bc0421fbb5d548914bffef59abf"
+  },
+  "verification_file": "数据核验结果.json"
+}

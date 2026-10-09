@@ -19,7 +19,9 @@
       "one_minus_turnover": 0.2463590679970239,
       "transition_days": 241
     },
-    "final_score": 0.16841623261495442
+    "final_score": 0.16841623261495442,
+    "rows": 1091450,
+    "dates": 242
   },
   "naive_ret_1d_baseline": {
     "rank_ic": {
@@ -39,7 +41,9 @@
       "one_minus_turnover": 0.07983055440341669,
       "transition_days": 241
     },
-    "final_score": -0.10715710650018861
+    "final_score": -0.10715710650018861,
+    "rows": 1091450,
+    "dates": 242
   },
   "model_minus_baseline": {
     "rank_ic_mean": 0.06828496759354558,

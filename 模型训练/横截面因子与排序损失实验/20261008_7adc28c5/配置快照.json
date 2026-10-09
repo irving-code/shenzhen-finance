@@ -1,0 +1,182 @@
+{
+  "config_sha256": "7adc28c5cf673691766ada9ab5c5053544d877f976f44fe72f5c7ac1184b4ec7",
+  "input_sha256": "a52f908108a28f0bb5f1e59793043a5cbae541ceac38f4865752f123cea8e014",
+  "config": {
+    "project_root": "E:/ChatGPT/ChatGPT_Project/深圳金融比赛赛题五",
+    "paths": {
+      "input_dir": "模型预处理/横截面扩展输入/20261008_横截面排序优化",
+      "base_metadata": "模型预处理/步骤7_模型输入接口/模型输入接口元数据.json",
+      "factor_dates": "因子数据/横截面因子/20261008_横截面排序优化/交易日期表.npy",
+      "experiment_dir": "模型训练/横截面因子与排序损失实验",
+      "temporary_dir": "tmp/横截面排序实验"
+    },
+    "data": {
+      "build_id": "20261008_横截面排序优化",
+      "metadata_sha256": "e1a00c667b9e3d725f30b71a5cc2fa9d15f7e8623887a0ca91b509c64dbf9cb8",
+      "parameter_fit_rows": 4514536,
+      "rows": {
+        "train_fit": 5649750,
+        "validation": 1125300,
+        "local_holdout": 1125300,
+        "competition_test": 1599600
+      },
+      "prediction_eligible": {
+        "train_fit": 4514536,
+        "validation": 1055569,
+        "local_holdout": 1091450,
+        "competition_test": 1597202
+      },
+      "training_eligible": 4510263,
+      "selection_eligible": 1051065,
+      "training_boundary_excluded": 4273,
+      "selection_boundary_excluded": 4504,
+      "competition_test_uncovered": 2398
+    },
+    "features": {
+      "base_count": 27,
+      "extra_count": 10,
+      "extra_columns": [
+        "csrank_mom_5d",
+        "csrank_mom_20d",
+        "csrank_volatility_5d",
+        "csrank_amount_shock_5d",
+        "csrank_intraday_ret",
+        "excess_ret_1d",
+        "excess_mom_5d",
+        "market_mean_ret_1d",
+        "market_breadth_1d",
+        "market_dispersion_1d"
+      ],
+      "bounded_columns": [
+        "csrank_mom_5d",
+        "csrank_mom_20d",
+        "csrank_volatility_5d",
+        "csrank_amount_shock_5d",
+        "csrank_intraday_ret",
+        "market_breadth_1d"
+      ],
+      "continuous_columns": [
+        "excess_ret_1d",
+        "excess_mom_5d",
+        "market_mean_ret_1d",
+        "market_dispersion_1d"
+      ]
+    },
+    "splits": {
+      "train_fit": [
+        20180102,
+        20221230
+      ],
+      "validation": [
+        20230103,
+        20231229
+      ],
+      "local_holdout": [
+        20240102,
+        20241231
+      ],
+      "training_label_end": 20221230,
+      "selection_label_start": 20230103,
+      "selection_label_end": 20231229
+    },
+    "model": {
+      "sequence_length": 20,
+      "projection_dim": 64,
+      "lstm_hidden_dim": 64,
+      "lstm_layers": 1,
+      "transformer_layers": 1,
+      "transformer_heads": 4,
+      "transformer_feedforward_dim": 128,
+      "dropout": 0.1
+    },
+    "training": {
+      "optimizer": "AdamW",
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "batch_size": 512,
+      "inference_batch_size": 4096,
+      "max_epochs": 30,
+      "early_stopping_patience": 5,
+      "early_stopping_min_improvement": 0.0001,
+      "checkpoint_interval_batches": 100,
+      "device": "cuda",
+      "dtype": "float32"
+    },
+    "sampling": {
+      "version": "same_date_v1",
+      "date_purpose": 0,
+      "stock_purpose": 1,
+      "seed_namespace": 20261008
+    },
+    "ranking": {
+      "beta": 0.02,
+      "tau": 0.02,
+      "weights": [
+        0.0,
+        0.1,
+        0.3,
+        1.0
+      ]
+    },
+    "experiments": {
+      "A": {
+        "feature_mode": "base27",
+        "rank_weights": [
+          0.0
+        ]
+      },
+      "B": {
+        "feature_mode": "extended37",
+        "rank_weights": [
+          0.0
+        ]
+      },
+      "C": {
+        "feature_mode": "base27",
+        "rank_weights": [
+          0.1,
+          0.3,
+          1.0
+        ]
+      },
+      "D": {
+        "feature_mode": "extended37",
+        "rank_weights": [
+          0.1,
+          0.3,
+          1.0
+        ]
+      }
+    },
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "selection": {
+      "alphas": [
+        1.0,
+        0.9,
+        0.7,
+        0.5,
+        0.3
+      ],
+      "score_tolerance": 1e-08,
+      "fixed_alpha": 0.3,
+      "fixed_rank_weight": 0.3,
+      "inference_seed": 42
+    },
+    "bootstrap": {
+      "block_size": 20,
+      "repetitions": 2000,
+      "seed": 20261008
+    },
+    "verification": {
+      "rtol": 1e-06,
+      "atol": 1e-07,
+      "score_rtol": 1e-10,
+      "score_atol": 1e-12
+    }
+  }
+}

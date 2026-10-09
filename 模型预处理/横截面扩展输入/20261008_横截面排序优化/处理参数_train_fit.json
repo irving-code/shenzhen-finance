@@ -1,0 +1,102 @@
+{
+  "source_split": "train_fit",
+  "source_eligible_rows": 4514536,
+  "source_key_sha256": "d42334050812c1a538581078c010759f587b83a01f5d6c4054664af7cd1ebc6b",
+  "parameters": {
+    "csrank_mom_5d": {
+      "median": 0.5,
+      "source_rows": 4514536,
+      "source_finite_count": 4513638,
+      "source_missing_count": 898
+    },
+    "csrank_mom_20d": {
+      "median": 0.49976634979248047,
+      "source_rows": 4514536,
+      "source_finite_count": 4507423,
+      "source_missing_count": 7113
+    },
+    "csrank_volatility_5d": {
+      "median": 0.49897509813308716,
+      "source_rows": 4514536,
+      "source_finite_count": 4511132,
+      "source_missing_count": 3404
+    },
+    "csrank_amount_shock_5d": {
+      "median": 0.5,
+      "source_rows": 4514536,
+      "source_finite_count": 4511808,
+      "source_missing_count": 2728
+    },
+    "csrank_intraday_ret": {
+      "median": 0.4998743534088135,
+      "source_rows": 4514536,
+      "source_finite_count": 4514536,
+      "source_missing_count": 0
+    },
+    "excess_ret_1d": {
+      "median": 0.0,
+      "source_rows": 4514536,
+      "source_finite_count": 4513852,
+      "source_missing_count": 684,
+      "lower_quantile": -0.07809467073529959,
+      "upper_quantile": 0.10490235369652512,
+      "quantile_interpolation": "linear",
+      "mean": 0.002241827761014144,
+      "std_ddof0": 0.024821512800731582
+    },
+    "excess_mom_5d": {
+      "median": 0.0,
+      "source_rows": 4514536,
+      "source_finite_count": 4513638,
+      "source_missing_count": 898,
+      "lower_quantile": -0.15543624497950076,
+      "upper_quantile": 0.26677198782563216,
+      "quantile_interpolation": "linear",
+      "mean": 0.005724608049455995,
+      "std_ddof0": 0.05594604051136674
+    },
+    "market_mean_ret_1d": {
+      "median": 0.0014412431046366692,
+      "source_rows": 4514536,
+      "source_finite_count": 4513852,
+      "source_missing_count": 684,
+      "lower_quantile": -0.05351969227194786,
+      "upper_quantile": 0.03609719127416611,
+      "quantile_interpolation": "linear",
+      "mean": 0.0003760655852242647,
+      "std_ddof0": 0.013900569710244148
+    },
+    "market_breadth_1d": {
+      "median": 0.45588234066963196,
+      "source_rows": 4514536,
+      "source_finite_count": 4513852,
+      "source_missing_count": 684
+    },
+    "market_dispersion_1d": {
+      "median": 0.025509627535939217,
+      "source_rows": 4514536,
+      "source_finite_count": 4513852,
+      "source_missing_count": 684,
+      "lower_quantile": 0.017221707850694656,
+      "upper_quantile": 0.03970121592283249,
+      "quantile_interpolation": "linear",
+      "mean": 0.02560797779312562,
+      "std_ddof0": 0.004139680826586952
+    }
+  },
+  "date_start": 20180102,
+  "date_end": 20221230,
+  "fit_rule": "train_fit sample_eligible=1",
+  "feature_columns": [
+    "csrank_mom_5d",
+    "csrank_mom_20d",
+    "csrank_volatility_5d",
+    "csrank_amount_shock_5d",
+    "csrank_intraday_ret",
+    "excess_ret_1d",
+    "excess_mom_5d",
+    "market_mean_ret_1d",
+    "market_breadth_1d",
+    "market_dispersion_1d"
+  ]
+}

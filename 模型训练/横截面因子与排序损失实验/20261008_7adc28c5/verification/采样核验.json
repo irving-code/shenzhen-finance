@@ -1,0 +1,32 @@
+{
+  "seed_42_epoch_1": {
+    "rows": 4510263,
+    "batch_count": 9393,
+    "sampler_sha256": "3cfccee16022f0b9ff3461cb06a353dea71b3964971a981041170ae99ee92c4e"
+  },
+  "seed_42_epoch_2": {
+    "rows": 4510263,
+    "batch_count": 9393,
+    "sampler_sha256": "8b9a278a8982b47dd6c5965ad411a017c43afc13ba20dd49638dcd870a02e21f"
+  },
+  "seed_43_epoch_1": {
+    "rows": 4510263,
+    "batch_count": 9393,
+    "sampler_sha256": "e269b2b87f998fd334854964d38803fbb00eeb6f31c2606f6881ad8ffd4593ea"
+  },
+  "seed_43_epoch_2": {
+    "rows": 4510263,
+    "batch_count": 9393,
+    "sampler_sha256": "e17587450acacb5e5e551c2cd94fcd38be73a7eb1af1830b885ec39a753a8e60"
+  },
+  "seed_44_epoch_1": {
+    "rows": 4510263,
+    "batch_count": 9393,
+    "sampler_sha256": "6bd83073605ff08d96b6b532074e88502ca0722c6d5c1fa1b967acffb42f0352"
+  },
+  "seed_44_epoch_2": {
+    "rows": 4510263,
+    "batch_count": 9393,
+    "sampler_sha256": "b7fa9207781e22233d9c32af0261f419beec78af376fc76d20c4e78f9991586b"
+  }
+}
