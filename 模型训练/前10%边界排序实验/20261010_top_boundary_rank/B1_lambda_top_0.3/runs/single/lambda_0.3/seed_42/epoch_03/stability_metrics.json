@@ -1,0 +1,2923 @@
+{
+  "group": "single",
+  "rank_weight": 0.3,
+  "epoch": 3,
+  "config_sha256": "69320d5c3f519d835e76cee75f5e0d97f1822720cf62bbb4cb7dbff58262b7b6",
+  "input_sha256": "a52f908108a28f0bb5f1e59793043a5cbae541ceac38f4865752f123cea8e014",
+  "batch_sizes": [
+    4096,
+    2048
+  ],
+  "seeds": {
+    "42": {
+      "seed": 42,
+      "epoch": 3,
+      "batch_sizes": [
+        4096,
+        2048
+      ],
+      "alphas": {
+        "0.3": {
+          "passing_dates": 241,
+          "total_dates": 241,
+          "required_passing_dates": 239,
+          "passed": true,
+          "daily": [
+            {
+              "trade_date": 20230103,
+              "raw_spearman": 0.9999999852446687,
+              "selected_spearman": 0.9999999852446687,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230104,
+              "raw_spearman": 0.9999999737939165,
+              "selected_spearman": 0.9999999721800535,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230105,
+              "raw_spearman": 0.9999999761980103,
+              "selected_spearman": 0.9999999700071868,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230106,
+              "raw_spearman": 0.9999999739128677,
+              "selected_spearman": 0.9999999716393962,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230109,
+              "raw_spearman": 0.9999999840583627,
+              "selected_spearman": 0.9999999839813505,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230110,
+              "raw_spearman": 0.999999977736103,
+              "selected_spearman": 0.9999999690843311,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230111,
+              "raw_spearman": 0.9999999653969794,
+              "selected_spearman": 0.9999999716393962,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230112,
+              "raw_spearman": 0.9999999838159598,
+              "selected_spearman": 0.9999999781130123,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230113,
+              "raw_spearman": 0.9999999779513405,
+              "selected_spearman": 0.9999999804524983,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230116,
+              "raw_spearman": 0.9999999711769942,
+              "selected_spearman": 0.9999999798084832,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230117,
+              "raw_spearman": 0.9999999411594493,
+              "selected_spearman": 0.9999999722559312,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230118,
+              "raw_spearman": 0.9999999396489488,
+              "selected_spearman": 0.999999974377817,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230119,
+              "raw_spearman": 0.9999999210111229,
+              "selected_spearman": 0.9999999614123751,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230120,
+              "raw_spearman": 0.9999998984103706,
+              "selected_spearman": 0.9999999573393175,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230130,
+              "raw_spearman": 0.9999999127238091,
+              "selected_spearman": 0.9999999580826853,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230131,
+              "raw_spearman": 0.9999999093732024,
+              "selected_spearman": 0.9999999439677256,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230201,
+              "raw_spearman": 0.9999998995376391,
+              "selected_spearman": 0.9999999455538937,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230202,
+              "raw_spearman": 0.9999999034329337,
+              "selected_spearman": 0.9999999280784705,
+              "overlaps": {
+                "raw_return": 0.997624703087886,
+                "raw_turnover": 0.997624703087886,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230203,
+              "raw_spearman": 0.9999998874288397,
+              "selected_spearman": 0.9999999186232693,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230206,
+              "raw_spearman": 0.9999998977921009,
+              "selected_spearman": 0.9999999152969058,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230207,
+              "raw_spearman": 0.9999998904499084,
+              "selected_spearman": 0.9999999097959185,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230208,
+              "raw_spearman": 0.9999998748109246,
+              "selected_spearman": 0.9999998821477495,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230209,
+              "raw_spearman": 0.999999915665351,
+              "selected_spearman": 0.9999999091780823,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230210,
+              "raw_spearman": 0.9999998823021907,
+              "selected_spearman": 0.9999998915697513,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230213,
+              "raw_spearman": 0.9999999100522347,
+              "selected_spearman": 0.9999998814588168,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230214,
+              "raw_spearman": 0.9999998811886849,
+              "selected_spearman": 0.9999998683390244,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230215,
+              "raw_spearman": 0.9999998591165585,
+              "selected_spearman": 0.999999864788963,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230216,
+              "raw_spearman": 0.9999999687054346,
+              "selected_spearman": 0.9999999168050809,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230217,
+              "raw_spearman": 0.9999999567432697,
+              "selected_spearman": 0.9999999433533668,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230220,
+              "raw_spearman": 0.9999999581618395,
+              "selected_spearman": 0.9999999426219555,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230221,
+              "raw_spearman": 0.9999999285473602,
+              "selected_spearman": 0.9999999478661851,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230222,
+              "raw_spearman": 0.9999999284199487,
+              "selected_spearman": 0.9999999399576558,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230223,
+              "raw_spearman": 0.9999999218541978,
+              "selected_spearman": 0.9999999331059676,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230224,
+              "raw_spearman": 0.9999999047940779,
+              "selected_spearman": 0.9999999185601947,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230227,
+              "raw_spearman": 0.9999999271206205,
+              "selected_spearman": 0.9999999176347423,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230228,
+              "raw_spearman": 0.9999999637909447,
+              "selected_spearman": 0.9999999379713137,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230301,
+              "raw_spearman": 0.9999999259792673,
+              "selected_spearman": 0.9999999418600852,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230302,
+              "raw_spearman": 0.999999930719105,
+              "selected_spearman": 0.9999999337547129,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230303,
+              "raw_spearman": 0.9999999181349916,
+              "selected_spearman": 0.9999999429367503,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230306,
+              "raw_spearman": 0.9999999329861994,
+              "selected_spearman": 0.999999940978677,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230307,
+              "raw_spearman": 0.9999999476279295,
+              "selected_spearman": 0.9999999384762807,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230308,
+              "raw_spearman": 0.9999999411707987,
+              "selected_spearman": 0.9999999468193286,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230309,
+              "raw_spearman": 0.9999999261215067,
+              "selected_spearman": 0.9999999331868158,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230310,
+              "raw_spearman": 0.9999999321976444,
+              "selected_spearman": 0.9999999436707141,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230313,
+              "raw_spearman": 0.9999999592780964,
+              "selected_spearman": 0.9999999432500812,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230314,
+              "raw_spearman": 0.9999999503054732,
+              "selected_spearman": 0.9999999381886021,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230315,
+              "raw_spearman": 0.9999999445532533,
+              "selected_spearman": 0.9999999591727792,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230316,
+              "raw_spearman": 0.9999999322652482,
+              "selected_spearman": 0.9999999606800573,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230317,
+              "raw_spearman": 0.9999999266329567,
+              "selected_spearman": 0.9999999515500709,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230320,
+              "raw_spearman": 0.9999999286324778,
+              "selected_spearman": 0.9999999455515084,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230321,
+              "raw_spearman": 0.9999999385963,
+              "selected_spearman": 0.9999999463582245,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230322,
+              "raw_spearman": 0.999999916693851,
+              "selected_spearman": 0.999999941900885,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230323,
+              "raw_spearman": 0.9999998963587046,
+              "selected_spearman": 0.9999999255593905,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230324,
+              "raw_spearman": 0.9999999371475622,
+              "selected_spearman": 0.9999999406009983,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230327,
+              "raw_spearman": 0.9999999302129313,
+              "selected_spearman": 0.9999999377284675,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230328,
+              "raw_spearman": 0.9999999288593286,
+              "selected_spearman": 0.999999932005794,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230329,
+              "raw_spearman": 0.9999999148323789,
+              "selected_spearman": 0.9999999201313661,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230330,
+              "raw_spearman": 0.9999999444363862,
+              "selected_spearman": 0.9999999277096298,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230331,
+              "raw_spearman": 0.9999999246189761,
+              "selected_spearman": 0.9999999207325719,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230403,
+              "raw_spearman": 0.9999999374490305,
+              "selected_spearman": 0.9999999353371253,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230404,
+              "raw_spearman": 0.9999999239711961,
+              "selected_spearman": 0.999999927964636,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230406,
+              "raw_spearman": 0.9999999312087843,
+              "selected_spearman": 0.9999999289401041,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230407,
+              "raw_spearman": 0.9999999435508122,
+              "selected_spearman": 0.9999999331998762,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230410,
+              "raw_spearman": 0.9999999491660229,
+              "selected_spearman": 0.9999999367843783,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230411,
+              "raw_spearman": 0.9999999499735218,
+              "selected_spearman": 0.9999999493967408,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230412,
+              "raw_spearman": 0.9999999475510254,
+              "selected_spearman": 0.9999999484738848,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230413,
+              "raw_spearman": 0.9999999366245308,
+              "selected_spearman": 0.9999999515160393,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230414,
+              "raw_spearman": 0.9999999353478013,
+              "selected_spearman": 0.9999999477853639,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230417,
+              "raw_spearman": 0.9999999571173169,
+              "selected_spearman": 0.9999999515840708,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230418,
+              "raw_spearman": 0.9999999223039523,
+              "selected_spearman": 0.9999999477415369,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230419,
+              "raw_spearman": 0.9999999302859284,
+              "selected_spearman": 0.9999999501657872,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230420,
+              "raw_spearman": 0.999999961344105,
+              "selected_spearman": 0.9999999480489395,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230421,
+              "raw_spearman": 0.9999999877549743,
+              "selected_spearman": 0.9999999733535928,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230424,
+              "raw_spearman": 0.9999999895574406,
+              "selected_spearman": 0.9999999824287564,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230425,
+              "raw_spearman": 0.9999999941486255,
+              "selected_spearman": 0.9999999934898615,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230426,
+              "raw_spearman": 0.999999994653592,
+              "selected_spearman": 0.9999999893852344,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230427,
+              "raw_spearman": 0.9999999952637494,
+              "selected_spearman": 0.9999999922641241,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230428,
+              "raw_spearman": 0.9999999932348662,
+              "selected_spearman": 0.999999992827328,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230504,
+              "raw_spearman": 0.999999993562689,
+              "selected_spearman": 0.9999999922752271,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230505,
+              "raw_spearman": 0.9999999914172705,
+              "selected_spearman": 0.9999999918483666,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230508,
+              "raw_spearman": 0.9999999904823038,
+              "selected_spearman": 0.9999999918195009,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230509,
+              "raw_spearman": 0.9999999918021161,
+              "selected_spearman": 0.9999999916444645,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230510,
+              "raw_spearman": 0.9999999929157118,
+              "selected_spearman": 0.9999999943325696,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230511,
+              "raw_spearman": 0.999999989703003,
+              "selected_spearman": 0.9999999924541092,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230512,
+              "raw_spearman": 0.9999999936421514,
+              "selected_spearman": 0.999999988069223,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230515,
+              "raw_spearman": 0.9999999913990525,
+              "selected_spearman": 0.9999999926165382,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230516,
+              "raw_spearman": 0.9999999950550066,
+              "selected_spearman": 0.9999999940346115,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230517,
+              "raw_spearman": 0.9999999914836228,
+              "selected_spearman": 0.9999999899530297,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230518,
+              "raw_spearman": 0.9999999941131031,
+              "selected_spearman": 0.9999999951334988,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230519,
+              "raw_spearman": 0.9999999921508044,
+              "selected_spearman": 0.9999999932496919,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230522,
+              "raw_spearman": 0.9999999899459241,
+              "selected_spearman": 0.9999999916739686,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230523,
+              "raw_spearman": 0.9999999927787402,
+              "selected_spearman": 0.9999999919938207,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230524,
+              "raw_spearman": 0.9999999867647518,
+              "selected_spearman": 0.9999999921452535,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230525,
+              "raw_spearman": 0.9999999906462396,
+              "selected_spearman": 0.9999999922969031,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230526,
+              "raw_spearman": 0.9999999608002701,
+              "selected_spearman": 0.9999999907117112,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230529,
+              "raw_spearman": 0.9999999581731102,
+              "selected_spearman": 0.999999987554335,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230530,
+              "raw_spearman": 0.9999999500164078,
+              "selected_spearman": 0.9999999852017094,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230531,
+              "raw_spearman": 0.9999999402529247,
+              "selected_spearman": 0.9999999790471714,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230601,
+              "raw_spearman": 0.9999999499770504,
+              "selected_spearman": 0.9999999782748499,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230602,
+              "raw_spearman": 0.999999947736079,
+              "selected_spearman": 0.9999999724304887,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230605,
+              "raw_spearman": 0.9999999154199013,
+              "selected_spearman": 0.9999999657896005,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230606,
+              "raw_spearman": 0.999999944506322,
+              "selected_spearman": 0.9999999672780039,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230607,
+              "raw_spearman": 0.9999999498944393,
+              "selected_spearman": 0.9999999619292161,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230608,
+              "raw_spearman": 0.9999999497409079,
+              "selected_spearman": 0.9999999664677031,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230609,
+              "raw_spearman": 0.9999999205041665,
+              "selected_spearman": 0.9999999484479233,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230612,
+              "raw_spearman": 0.9999999513795333,
+              "selected_spearman": 0.9999999486542636,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230613,
+              "raw_spearman": 0.9999999261818449,
+              "selected_spearman": 0.999999930654481,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230614,
+              "raw_spearman": 0.9999999156137761,
+              "selected_spearman": 0.9999999247965262,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230615,
+              "raw_spearman": 0.9999999324273003,
+              "selected_spearman": 0.9999999287040751,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230616,
+              "raw_spearman": 0.9999999452613741,
+              "selected_spearman": 0.9999999297633333,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230619,
+              "raw_spearman": 0.9999999064438911,
+              "selected_spearman": 0.9999999165045499,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230620,
+              "raw_spearman": 0.999999931229893,
+              "selected_spearman": 0.9999999278607599,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230621,
+              "raw_spearman": 0.99999994660727,
+              "selected_spearman": 0.9999999359921027,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230626,
+              "raw_spearman": 0.999999971857505,
+              "selected_spearman": 0.999999953320772,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230627,
+              "raw_spearman": 0.9999999771601945,
+              "selected_spearman": 0.9999999615496856,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230628,
+              "raw_spearman": 0.9999999659518621,
+              "selected_spearman": 0.9999999648023928,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230629,
+              "raw_spearman": 0.9999999588276549,
+              "selected_spearman": 0.9999999587483274,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230630,
+              "raw_spearman": 0.9999999614181866,
+              "selected_spearman": 0.9999999568137755,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230703,
+              "raw_spearman": 0.9999999624502107,
+              "selected_spearman": 0.999999947922494,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230704,
+              "raw_spearman": 0.9999999417733222,
+              "selected_spearman": 0.9999999405445823,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230705,
+              "raw_spearman": 0.9999999593324914,
+              "selected_spearman": 0.9999999511672837,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230706,
+              "raw_spearman": 0.9999999578262875,
+              "selected_spearman": 0.9999999535455004,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230707,
+              "raw_spearman": 0.9999999515240124,
+              "selected_spearman": 0.9999999510087358,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230710,
+              "raw_spearman": 0.999999948514735,
+              "selected_spearman": 0.9999999500220119,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230711,
+              "raw_spearman": 0.9999999380828207,
+              "selected_spearman": 0.9999999385984718,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230712,
+              "raw_spearman": 0.9999999484262455,
+              "selected_spearman": 0.9999999388872823,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230713,
+              "raw_spearman": 0.9999999541725603,
+              "selected_spearman": 0.9999999451813554,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230714,
+              "raw_spearman": 0.9999999352917268,
+              "selected_spearman": 0.9999999455754426,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230717,
+              "raw_spearman": 0.9999999554240689,
+              "selected_spearman": 0.9999999428858568,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230718,
+              "raw_spearman": 0.9999999555591034,
+              "selected_spearman": 0.9999999535563311,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230719,
+              "raw_spearman": 0.9999999577110913,
+              "selected_spearman": 0.9999999464156859,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230720,
+              "raw_spearman": 0.9999999455571662,
+              "selected_spearman": 0.9999999457636539,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230721,
+              "raw_spearman": 0.9999999512698784,
+              "selected_spearman": 0.9999999459013096,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230724,
+              "raw_spearman": 0.9999999253175909,
+              "selected_spearman": 0.9999999535980666,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230725,
+              "raw_spearman": 0.9999999375596013,
+              "selected_spearman": 0.9999999499928837,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230726,
+              "raw_spearman": 0.999999924132823,
+              "selected_spearman": 0.9999999512917724,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230727,
+              "raw_spearman": 0.9999999176297704,
+              "selected_spearman": 0.9999999414225873,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230728,
+              "raw_spearman": 0.999999944092403,
+              "selected_spearman": 0.9999999510467669,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230731,
+              "raw_spearman": 0.9999999375130328,
+              "selected_spearman": 0.9999999472286875,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230801,
+              "raw_spearman": 0.9999999254110826,
+              "selected_spearman": 0.9999999517285667,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230802,
+              "raw_spearman": 0.9999998979345408,
+              "selected_spearman": 0.9999999406834084,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230803,
+              "raw_spearman": 0.9999999048730484,
+              "selected_spearman": 0.9999999343154947,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 0.997737556561086,
+                "selected_turnover": 0.997737556561086
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230804,
+              "raw_spearman": 0.999999908430333,
+              "selected_spearman": 0.9999999099582021,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230807,
+              "raw_spearman": 0.9999999102298097,
+              "selected_spearman": 0.9999999194648777,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230808,
+              "raw_spearman": 0.9999999191530086,
+              "selected_spearman": 0.9999999198984635,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230809,
+              "raw_spearman": 0.9999999089474868,
+              "selected_spearman": 0.9999999068142482,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230810,
+              "raw_spearman": 0.9999999187541709,
+              "selected_spearman": 0.999999915810247,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230811,
+              "raw_spearman": 0.9999999277361211,
+              "selected_spearman": 0.9999999280404689,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230814,
+              "raw_spearman": 0.9999999077849323,
+              "selected_spearman": 0.9999999193836833,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230815,
+              "raw_spearman": 0.9999999186140063,
+              "selected_spearman": 0.9999999230041309,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230816,
+              "raw_spearman": 0.9999999137511073,
+              "selected_spearman": 0.9999999182763142,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230817,
+              "raw_spearman": 0.9999999257732727,
+              "selected_spearman": 0.99999992557066,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230818,
+              "raw_spearman": 0.9999999322689155,
+              "selected_spearman": 0.9999999323701642,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230821,
+              "raw_spearman": 0.999999941397734,
+              "selected_spearman": 0.9999999280606733,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230822,
+              "raw_spearman": 0.9999999389128188,
+              "selected_spearman": 0.9999999382060303,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230823,
+              "raw_spearman": 0.9999999578509514,
+              "selected_spearman": 0.9999999541536695,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230824,
+              "raw_spearman": 0.9999999505908278,
+              "selected_spearman": 0.9999999545570095,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230825,
+              "raw_spearman": 0.9999999758007265,
+              "selected_spearman": 0.9999999668816633,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230828,
+              "raw_spearman": 0.999999980660304,
+              "selected_spearman": 0.9999999738998201,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230829,
+              "raw_spearman": 0.9999999890352332,
+              "selected_spearman": 0.9999999752451901,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230830,
+              "raw_spearman": 0.9999999780474473,
+              "selected_spearman": 0.9999999812027074,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230831,
+              "raw_spearman": 0.9999999783305232,
+              "selected_spearman": 0.9999999763849673,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230901,
+              "raw_spearman": 0.9999999848177146,
+              "selected_spearman": 0.9999999783686028,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230904,
+              "raw_spearman": 0.9999999818069059,
+              "selected_spearman": 0.9999999807999085,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230905,
+              "raw_spearman": 0.9999999642803987,
+              "selected_spearman": 0.999999976968056,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230906,
+              "raw_spearman": 0.9999999797936441,
+              "selected_spearman": 0.9999999838081524,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230907,
+              "raw_spearman": 0.9999999857914771,
+              "selected_spearman": 0.9999999804758182,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230908,
+              "raw_spearman": 0.9999999777529359,
+              "selected_spearman": 0.9999999827376171,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230911,
+              "raw_spearman": 0.9999999846213634,
+              "selected_spearman": 0.999999981411909,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230912,
+              "raw_spearman": 0.9999999783841007,
+              "selected_spearman": 0.9999999818252726,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230913,
+              "raw_spearman": 0.999999983306473,
+              "selected_spearman": 0.999999980635509,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230914,
+              "raw_spearman": 0.9999999810027662,
+              "selected_spearman": 0.9999999826387324,
+              "overlaps": {
+                "raw_return": 0.9977477477477478,
+                "raw_turnover": 0.9977477477477478,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230915,
+              "raw_spearman": 0.9999999862111467,
+              "selected_spearman": 0.9999999859774377,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230918,
+              "raw_spearman": 0.9999999760761991,
+              "selected_spearman": 0.9999999836065323,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230919,
+              "raw_spearman": 0.9999999734128819,
+              "selected_spearman": 0.9999999832291528,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230920,
+              "raw_spearman": 0.9999999802211279,
+              "selected_spearman": 0.9999999849494111,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230921,
+              "raw_spearman": 0.9999999559765232,
+              "selected_spearman": 0.9999999810995214,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230922,
+              "raw_spearman": 0.9999999155035135,
+              "selected_spearman": 0.999999975924656,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230925,
+              "raw_spearman": 0.9999999140313813,
+              "selected_spearman": 0.9999999720859561,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230926,
+              "raw_spearman": 0.9999998751510961,
+              "selected_spearman": 0.9999999658385275,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230927,
+              "raw_spearman": 0.9999999205713949,
+              "selected_spearman": 0.9999999586052899,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20230928,
+              "raw_spearman": 0.9999998950823636,
+              "selected_spearman": 0.9999999369096702,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231009,
+              "raw_spearman": 0.9999999173989482,
+              "selected_spearman": 0.9999999318973696,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231010,
+              "raw_spearman": 0.9999998883688643,
+              "selected_spearman": 0.9999999342916026,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231011,
+              "raw_spearman": 0.9999998921046223,
+              "selected_spearman": 0.9999999242839558,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231012,
+              "raw_spearman": 0.9999998989467964,
+              "selected_spearman": 0.9999999187592087,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231013,
+              "raw_spearman": 0.9999998777073669,
+              "selected_spearman": 0.9999999123873818,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231016,
+              "raw_spearman": 0.9999998983526437,
+              "selected_spearman": 0.9999999026942947,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231017,
+              "raw_spearman": 0.9999998986840659,
+              "selected_spearman": 0.9999999083947653,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231018,
+              "raw_spearman": 0.9999999065719294,
+              "selected_spearman": 0.9999999134323903,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231019,
+              "raw_spearman": 0.9999999283611393,
+              "selected_spearman": 0.9999999191868684,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231020,
+              "raw_spearman": 0.9999999255625415,
+              "selected_spearman": 0.9999999331419965,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231023,
+              "raw_spearman": 0.9999999733204717,
+              "selected_spearman": 0.9999999577104632,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231024,
+              "raw_spearman": 0.9999999801809217,
+              "selected_spearman": 0.9999999695091114,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231025,
+              "raw_spearman": 0.9999999721976607,
+              "selected_spearman": 0.9999999699469964,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231026,
+              "raw_spearman": 0.9999999607126461,
+              "selected_spearman": 0.9999999610767266,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231027,
+              "raw_spearman": 0.9999999770146247,
+              "selected_spearman": 0.999999963170409,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231030,
+              "raw_spearman": 0.999999970463196,
+              "selected_spearman": 0.9999999645426068,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231031,
+              "raw_spearman": 0.9999999512115709,
+              "selected_spearman": 0.9999999591999365,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231101,
+              "raw_spearman": 0.9999999678815014,
+              "selected_spearman": 0.9999999562950775,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231102,
+              "raw_spearman": 0.9999999602827542,
+              "selected_spearman": 0.9999999612064132,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231103,
+              "raw_spearman": 0.9999999629633117,
+              "selected_spearman": 0.9999999457192447,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231106,
+              "raw_spearman": 0.9999999698016773,
+              "selected_spearman": 0.9999999555459547,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231107,
+              "raw_spearman": 0.9999999395921336,
+              "selected_spearman": 0.9999999606523658,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231108,
+              "raw_spearman": 0.999999961444598,
+              "selected_spearman": 0.9999999610484829,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231109,
+              "raw_spearman": 0.9999999489338974,
+              "selected_spearman": 0.9999999528620626,
+              "overlaps": {
+                "raw_return": 0.9977578475336323,
+                "raw_turnover": 0.9977578475336323,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231110,
+              "raw_spearman": 0.999999968661642,
+              "selected_spearman": 0.999999962393972,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231113,
+              "raw_spearman": 0.9999999502224866,
+              "selected_spearman": 0.9999999584145591,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231114,
+              "raw_spearman": 0.9999999344197443,
+              "selected_spearman": 0.9999999569382694,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231115,
+              "raw_spearman": 0.9999999674844975,
+              "selected_spearman": 0.9999999573048741,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231116,
+              "raw_spearman": 0.9999999323872464,
+              "selected_spearman": 0.9999999520018723,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231117,
+              "raw_spearman": 0.9999999287426186,
+              "selected_spearman": 0.9999999445226915,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231120,
+              "raw_spearman": 0.9999999078145406,
+              "selected_spearman": 0.999999945386209,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231121,
+              "raw_spearman": 0.9999999072512749,
+              "selected_spearman": 0.99999994515957,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231122,
+              "raw_spearman": 0.9999999009058282,
+              "selected_spearman": 0.9999999331919942,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231123,
+              "raw_spearman": 0.999999904886451,
+              "selected_spearman": 0.9999999393326321,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231124,
+              "raw_spearman": 0.9999998899321948,
+              "selected_spearman": 0.9999999275852518,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231127,
+              "raw_spearman": 0.9999998966411896,
+              "selected_spearman": 0.9999999188879537,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231128,
+              "raw_spearman": 0.999999885626804,
+              "selected_spearman": 0.9999999203847257,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231129,
+              "raw_spearman": 0.9999998515902803,
+              "selected_spearman": 0.9999998976937167,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 0.9977628635346756,
+                "selected_turnover": 0.9977628635346756
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231130,
+              "raw_spearman": 0.9999998848836998,
+              "selected_spearman": 0.9999999051019782,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231201,
+              "raw_spearman": 0.9999999009071696,
+              "selected_spearman": 0.999999909235964,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231204,
+              "raw_spearman": 0.9999998783955064,
+              "selected_spearman": 0.9999998999900681,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231205,
+              "raw_spearman": 0.999999884315184,
+              "selected_spearman": 0.9999998955951261,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231206,
+              "raw_spearman": 0.9999999167449737,
+              "selected_spearman": 0.9999999140889544,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231207,
+              "raw_spearman": 0.9999998700185335,
+              "selected_spearman": 0.9999999014974117,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231208,
+              "raw_spearman": 0.9999999114263184,
+              "selected_spearman": 0.9999998938295612,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231211,
+              "raw_spearman": 0.9999999340478343,
+              "selected_spearman": 0.9999999119764624,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231212,
+              "raw_spearman": 0.999999882340544,
+              "selected_spearman": 0.9999999206216312,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231213,
+              "raw_spearman": 0.9999998672114938,
+              "selected_spearman": 0.9999999016284572,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231214,
+              "raw_spearman": 0.9999998854295161,
+              "selected_spearman": 0.9999998995994883,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231215,
+              "raw_spearman": 0.9999999121472275,
+              "selected_spearman": 0.999999913621828,
+              "overlaps": {
+                "raw_return": 0.9977578475336323,
+                "raw_turnover": 0.9977578475336323,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231218,
+              "raw_spearman": 0.9999998894224776,
+              "selected_spearman": 0.9999999002505583,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231219,
+              "raw_spearman": 0.9999999009067916,
+              "selected_spearman": 0.9999999085192619,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231220,
+              "raw_spearman": 0.9999999314750665,
+              "selected_spearman": 0.9999999177832216,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231221,
+              "raw_spearman": 0.9999999273051252,
+              "selected_spearman": 0.9999999193592621,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231222,
+              "raw_spearman": 0.9999999360097388,
+              "selected_spearman": 0.9999999344634507,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231225,
+              "raw_spearman": 0.9999999103089268,
+              "selected_spearman": 0.9999999309562932,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231226,
+              "raw_spearman": 0.999999919917435,
+              "selected_spearman": 0.9999999380090745,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231227,
+              "raw_spearman": 0.9999999270280712,
+              "selected_spearman": 0.9999999413066246,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            },
+            {
+              "trade_date": 20231228,
+              "raw_spearman": 0.9999999590396542,
+              "selected_spearman": 0.999999943807015,
+              "overlaps": {
+                "raw_return": 1.0,
+                "raw_turnover": 1.0,
+                "selected_return": 1.0,
+                "selected_turnover": 1.0
+              },
+              "passed": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

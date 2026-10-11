@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "training_epochs": 8,
+  "checkpoints": 8,
+  "official_2023_candidates": 32,
+  "b0_official_2023_candidates": 32,
+  "b0_best_official_2023": {
+    "epoch": 2,
+    "alpha": 0.3,
+    "final_score": 0.3179218696448408,
+    "rank_ic": 0.0753234671582065,
+    "annual_excess": 0.1647700038591595,
+    "mean_turnover": 0.2054617279206323
+  },
+  "selected_candidate": {
+    "group": "single",
+    "rank_weight": 0.3,
+    "seed": 42,
+    "epoch": 3,
+    "alpha": 0.3,
+    "final_score": 0.2728182337059913,
+    "rank_ic": 0.0266956595789843,
+    "annual_excess": 0.1054286241032594,
+    "mean_turnover": 0.2316287245219342,
+    "selection_metric": "organizer_evaluate_2023_final_score"
+  },
+  "stability": {
+    "passed": true,
+    "passing_dates": 241,
+    "total_dates": 241
+  },
+  "holdout_2024": {
+    "rows": 1091450,
+    "dates": 242,
+    "final_score_alpha_0_3": 0.22661691589233346,
+    "quality_pass": true
+  },
+  "report_sha256": "b97431a9c684855c8a191e406180b9de06a8c2eef4cf66f499a0ea7d69c2b69f",
+  "key_files": {
+    "official_comparison": "ae8e914ef27119bcc0ae7a976740ac3f179d668cb64458a20f873b7288f5a05a",
+    "selection": "ab6c839fbcfa6f3a96e912ba590c3d7f76fabecdf6a42e67c1e6614520e651f4",
+    "holdout_metrics": "2c882aa47d6ca5bbf4e03ee16b460b33f8a58224e07cc7e4065b4e6189048690"
+  }
+}

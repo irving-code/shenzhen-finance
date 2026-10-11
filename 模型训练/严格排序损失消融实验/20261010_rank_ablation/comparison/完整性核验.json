@@ -1,0 +1,7 @@
+{
+  "expected_runs": 12,
+  "selected_runs": 12,
+  "holdout_metric_rows": 24,
+  "daily_delta_rows": 726,
+  "status": "passed"
+}

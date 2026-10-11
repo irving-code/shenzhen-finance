@@ -1,0 +1,25 @@
+{
+  "config_sha256": "69320d5c3f519d835e76cee75f5e0d97f1822720cf62bbb4cb7dbff58262b7b6",
+  "input_sha256": "a52f908108a28f0bb5f1e59793043a5cbae541ceac38f4865752f123cea8e014",
+  "top_boundary_weight": 0.3,
+  "global_rank_weight": 0.3,
+  "seed": 42,
+  "feature_mode": "extended37",
+  "source_sha256": {
+    "cross_section_experiment.py": "4bb4868792a8a9ff4f24828dd2a6247dc1eeeff60dc81b4046ba3e174eae6019",
+    "cross_section_input.py": "0c33495a442a9a22c1e2526e92ac53c3939af0e20a606ec6ac55aae512767d99",
+    "dependence_constraint.py": "4112797f81d0bac79c7217b5edda58d96f2afb4de6fcaab2532ae8f353b5960d",
+    "ranking_loss.py": "2b64dd56a205fe8654e13654509cce9010c2856c545f57f673ca6da1185d9953",
+    "lstm_transformer_small.py": "3d7f9f4e1a753dd26c5d56dbec34ca689c2efd9d01369cafaa9f3f5c5aba8013",
+    "train_cross_section_rank.py": "6088331735dcdcc1aa556e2ea3cc350408c9d7ade2395d0fc81d7d91e1cd4c9b",
+    "evaluate_cross_section_rank.py": "a43e4c39af2dbc77e2c845ec6898191bafe476630d5bc35aa6b9776ad6ecb291",
+    "verify_cross_section_rank.py": "c5155ab8c912893ede5ad52e0e47c239c6b17d787a11672f707a52de0cb7c29a",
+    "finalize_cross_section_rank.py": "66345cb3700b07382aba2f7d72177de9e126d75c5637643ca152729f127f8907",
+    "coordinate_cross_section_rank.py": "9338bc9513657d406362f65ceb80563534938cff23c928be3e1e0a4ed2525be7",
+    "evaluate_first_lstm_result.py": "f65a5deb86af3a89331e344dd1f84a34141b6f42d7467f4ec032e5896bb5fad6",
+    "run_second_score_experiment.py": "483a6c7a0ceaab748cbc6430dda1995eae55d6675867f133e8f4346f4e2a14ab",
+    "audit_cross_section_delivery.py": "760bda5bbbfe83a5cb2a330af89c06ca31f3e3ea298ec09b55e3bc269a442d7e",
+    "top_boundary_rank_loss.py": "284b41814bceaf0c498551a61bf69dc353110b8bdf2a390bd243310beba5143e",
+    "train_top_boundary_rank.py": "2d7aa379dc645adb66494de412b8558b2e172f40634fc2ea6e6857bfa3bd8b6c"
+  }
+}

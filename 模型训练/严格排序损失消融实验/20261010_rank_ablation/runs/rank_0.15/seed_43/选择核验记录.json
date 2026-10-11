@@ -1,0 +1,30 @@
+[
+  {
+    "epoch": 3,
+    "status": "prediction_quality_failed"
+  },
+  {
+    "epoch": 4,
+    "status": "prediction_quality_failed"
+  },
+  {
+    "epoch": 5,
+    "status": "prediction_quality_failed"
+  },
+  {
+    "epoch": 6,
+    "status": "prediction_quality_failed"
+  },
+  {
+    "epoch": 7,
+    "status": "prediction_quality_failed"
+  },
+  {
+    "epoch": 8,
+    "status": "prediction_quality_failed"
+  },
+  {
+    "epoch": 2,
+    "status": "passed"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "status": "selected",
+  "selection_source": "2023官方评分比较.csv",
+  "final_candidate": {
+    "group": "single",
+    "rank_weight": 0.3,
+    "seed": 42,
+    "epoch": 3,
+    "alpha": 0.3,
+    "final_score": 0.2728182337059913,
+    "rank_ic": 0.0266956595789843,
+    "annual_excess": 0.1054286241032594,
+    "mean_turnover": 0.2316287245219342,
+    "selection_metric": "organizer_evaluate_2023_final_score"
+  },
+  "candidate_count": 32
+}

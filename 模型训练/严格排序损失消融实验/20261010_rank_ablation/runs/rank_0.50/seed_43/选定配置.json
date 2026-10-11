@@ -1,0 +1,13 @@
+{
+  "status": "selected",
+  "final_candidate": {
+    "group": "single",
+    "rank_weight": 0.5,
+    "seed": 43,
+    "epoch": 5,
+    "alpha": 0.3,
+    "final_score": 0.33216018912922235,
+    "rank_ic": 0.09693923353773784,
+    "annual_excess": 0.2533706962198405
+  }
+}

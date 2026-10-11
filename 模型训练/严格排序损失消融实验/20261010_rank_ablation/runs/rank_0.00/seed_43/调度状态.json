@@ -1,0 +1,10 @@
+{
+  "model_id": "single",
+  "rank_weight": 0.0,
+  "seed": 43,
+  "completed_epochs": 8,
+  "best_monitor": 0.29039685838815793,
+  "stale_epochs": 3,
+  "stopped": true,
+  "stop_reason": "early_stopping"
+}

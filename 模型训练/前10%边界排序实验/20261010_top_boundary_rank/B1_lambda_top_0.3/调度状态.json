@@ -1,0 +1,8 @@
+{
+  "top_boundary_weight": 0.3,
+  "global_rank_weight": 0.3,
+  "seed": 42,
+  "completed_epochs": 8,
+  "max_epochs": 8,
+  "stopped": true
+}

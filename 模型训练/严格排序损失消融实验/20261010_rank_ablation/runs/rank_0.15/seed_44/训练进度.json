@@ -1,0 +1,9 @@
+{
+  "epoch": 9,
+  "batch": 9300,
+  "total_batches": 9393,
+  "elapsed_seconds": 813.4369999999908,
+  "seconds_per_batch": 0.08746634408602051,
+  "estimated_epoch_remaining_seconds": 8.134369999999908,
+  "loss_total": 0.008669302798807621
+}

@@ -1,0 +1,22 @@
+{
+  "epoch": 8,
+  "top_boundary_weight": 0.3,
+  "global_rank_weight": 0.3,
+  "seed": 42,
+  "sample_count": 4510263,
+  "batch_count": 9393,
+  "valid_pair_count": 1079937272,
+  "top_pair_count": 188064091,
+  "top_row_count": 442778,
+  "rest_row_count": 3990435,
+  "loss_return": 0.013143316439055353,
+  "loss_global_rank": 0.013868709743466321,
+  "loss_top_boundary": 0.013835647760438396,
+  "weighted_global_rank": 0.0041606131086946345,
+  "weighted_top_boundary": 0.00415069451420269,
+  "loss_total": 0.02148040893708639,
+  "grad_norm": 0.3229255793456184,
+  "elapsed_seconds": 912.7649999999994,
+  "sampling_sha256": "7ba9391606cdc63a8702c716450f1dbec8b89c7d9e18f48eb0c655ae08759890",
+  "parameter_count": 72833
+}

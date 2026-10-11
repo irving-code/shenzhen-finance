@@ -21,8 +21,10 @@ def source_hashes(schema_version=4):
         "finalize_cross_section_rank.py", "coordinate_cross_section_rank.py",
         "evaluate_first_lstm_result.py", "run_second_score_experiment.py",
     )
-    if schema_version == 5:
+    if schema_version >= 5:
         names = (*names, "audit_cross_section_delivery.py")
+    if schema_version >= 6:
+        names = (*names, "run_strict_sort_ablation.py", "aggregate_strict_sort_ablation.py")
     return {name: file_sha256(directory / name) for name in names}
 
 
@@ -43,6 +45,8 @@ def temporary_path(target):
     target = Path(target).resolve()
     if target.is_relative_to(root / "模型训练" / "去除因子依赖惩罚实验"):
         temporary_dir = "去除因子依赖惩罚实验"
+    elif target.is_relative_to(root / "模型训练" / "严格排序损失消融实验"):
+        temporary_dir = "严格排序损失消融"
     else:
         temporary_dir = "横截面排序实验"
     directory = root / "tmp" / temporary_dir
@@ -71,16 +75,24 @@ def load_config(path):
     }
     if set(config) != required:
         raise ValueError("训练配置区域缺失或包含未知区域")
-    root = path.parent.parent.resolve()
-    if path.parent != root / "模型训练":
+    model_training_dir = next((parent for parent in (path.parent, *path.parents) if parent.name == "模型训练"), None)
+    if model_training_dir is None:
+        raise ValueError("训练配置文件与项目根目录不一致")
+    root = model_training_dir.parent.resolve()
+    allowed_config_parent = {
+        root / "模型训练",
+        root / "模型训练" / "严格排序损失消融实验" / "20261010_rank_ablation" / "configs",
+    }
+    if path.parent not in allowed_config_parent:
         raise ValueError("训练配置文件与项目根目录不一致")
     config["project_root"] = str(root)
-    if config["model_id"] != "single" or config["feature_mode"] != "extended37" or config["seed"] != 42:
+    if config["model_id"] != "single" or config["feature_mode"] != "extended37":
         raise ValueError("单模型、37 通道输入或随机种子与计划不一致")
     schema_version = config["protocol"]["schema_version"]
     expected_protocols = {
         4: "20261009_本机横截面依赖约束",
         5: "20261009_去除因子依赖惩罚",
+        6: "20261010_严格排序损失消融",
     }
     if schema_version not in expected_protocols or config["protocol"]["plan_id"] != expected_protocols[schema_version]:
         raise ValueError("实验方案版本或编号不一致")
@@ -88,6 +100,10 @@ def load_config(path):
         raise ValueError("本机训练配置状态未启用")
     if config["protocol"]["candidate_count"] != 1 or config["protocol"]["run_count"] != 1:
         raise ValueError("训练运行数量与单模型方案不一致")
+    if schema_version == 6 and config["seed"] not in (42, 43, 44):
+        raise ValueError("严格消融随机种子不在固定集合中")
+    if schema_version != 6 and config["seed"] != 42:
+        raise ValueError("单模型方案随机种子与计划不一致")
     if config["dependence"]["enabled_model"] != "single" or len(config["dependence"]["source_groups"]) != 7:
         raise ValueError("因子依赖约束定义不完整")
     if config["execution"]["mode"] != "local_single_gpu" or config["execution"]["max_concurrent_training_tasks"] != 1:
@@ -96,7 +112,7 @@ def load_config(path):
         raise ValueError("平滑参数与计划不一致")
     if config["training"]["device"] != "cuda" or config["training"]["batch_size"] != 512:
         raise ValueError("训练设备或批次上限与计划不一致")
-    if config["ranking"]["weight"] != 0.3 or config["training"]["early_stopping_count_start_epoch"] != 6:
+    if config["ranking"]["weight"] not in ((0.0, 0.15, 0.3, 0.5) if schema_version == 6 else (0.3,)) or config["training"]["early_stopping_count_start_epoch"] != 6:
         raise ValueError("排序损失权重或早停起始周期与计划不一致")
     if (config["training"]["min_epochs"], config["training"]["max_epochs"], config["training"]["early_stopping_patience"]) != (6, 12, 3):
         raise ValueError("周期范围或早停耐心值与计划不一致")
@@ -107,7 +123,7 @@ def load_config(path):
     if schema_version == 4:
         if (config["dependence"]["limit"], config["dependence"]["penalty_weight"], config["dependence"]["window_scope"]) != (0.25, 0.1, "all_20_timesteps"):
             raise ValueError("历史方案因子依赖约束参数与计划不一致")
-    else:
+    elif schema_version == 5:
         dependence = config["dependence"]
         if (
             config["protocol"]["fixed_date"] != "2026-10-09"
@@ -125,6 +141,23 @@ def load_config(path):
             or dependence["minimum_passing_date_fraction"] != 0.95
         ):
             raise ValueError("新版依赖诊断或惩罚开关与实验方案不一致")
+    else:
+        dependence = config["dependence"]
+        if (
+            config["protocol"]["fixed_date"] != "2026-10-10"
+            or config["protocol"]["holdout_status"] != "previously_viewed"
+            or config["protocol"]["initialization"] != "fresh_ablation_matrix_run"
+            or config["paths"]["experiment_dir"] != "模型训练/严格排序损失消融实验/20261010_rank_ablation"
+            or config["paths"]["temporary_dir"] != "tmp/严格排序损失消融"
+            or dependence["limit"] != 0.25
+            or dependence["penalty_weight"] != 0.0
+            or dependence["window_scope"] != "all_20_timesteps"
+            or dependence["training_penalty_enabled"] is not False
+            or dependence["selection_gate_enabled"] is not False
+            or dependence["diagnostics_enabled"] is not True
+            or dependence["minimum_passing_date_fraction"] != 0.95
+        ):
+            raise ValueError("严格消融输入、路径或依赖开关与方案不一致")
     if config["data"]["build_id"] != "20261008_横截面排序优化":
         raise ValueError("训练构建编号与验收构建不一致")
     return config, file_sha256(path)

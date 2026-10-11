@@ -1,0 +1,23 @@
+{
+  "test_rows": 1599600,
+  "highest_local_holdout_model": "严格消融 rank=0.30, seed=42",
+  "highest_local_holdout_score": 0.3190656842186588,
+  "selected_submission_model": "LightGBM",
+  "selected_submission_score": 0.165669923,
+  "selected_submission_source": "模型训练\\LightGBM实验结果\\submission.csv",
+  "submission_path": "submission.csv",
+  "submission_rows": 1599600,
+  "complete_test_coverage": true,
+  "excluded_high_score_models_without_full_coverage": [
+    "严格消融 rank=0.30, seed=42",
+    "37因子、排序损失0.3、关闭依赖惩罚",
+    "严格消融 rank=0.30, seed=44",
+    "严格消融 rank=0.50, seed=44",
+    "严格消融 rank=0.15, seed=43",
+    "严格消融 rank=0.30, seed=43",
+    "严格消融 rank=0.50, seed=42",
+    "严格消融 rank=0.00, seed=43",
+    "严格消融 rank=0.50, seed=43",
+    "严格消融 rank=0.15, seed=44"
+  ]
+}

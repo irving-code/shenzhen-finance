@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "type": "strict_ablation_input_identity",
+  "config_sha256": "3c07e30f733f9e5389fb0485d7a8a8df4851c43f2c29cb41e63b3d5b7391803c",
+  "input_sha256": "a52f908108a28f0bb5f1e59793043a5cbae541ceac38f4865752f123cea8e014",
+  "input_record_sha256": "c9a087badb0e459f4e3b404728c308460295f1426ac4baaeeb688c956d4819c8"
+}
