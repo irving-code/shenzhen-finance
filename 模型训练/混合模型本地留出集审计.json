@@ -1,0 +1,14 @@
+{
+  "local_holdout_total_rows": 1091742,
+  "strict_prediction_rows": 1091450,
+  "lgbm_prediction_rows": 1091742,
+  "strict_coverage_rate": 0.9997325375409208,
+  "fallback_rows": 292,
+  "hybrid_rows": 1091742,
+  "hybrid_duplicate_keys": 0,
+  "hybrid_null_predictions": 0,
+  "hybrid_infinite_predictions": 0,
+  "calibration_overlap_rows": 1091450,
+  "daily_calibration_rows": 242,
+  "daily_global_fallback_rows": 0
+}
